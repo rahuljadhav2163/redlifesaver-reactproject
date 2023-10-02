@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import "react-router-dom";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import About  from './Views/About/About';
 import Blog from "./Views/Blog/Blog";
 import Bloodbank  from './Views/Bloodbank/Bloodbank';
