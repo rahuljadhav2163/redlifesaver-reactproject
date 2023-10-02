@@ -1,3 +1,51 @@
-.button{
-    text-align: center;
+.btn-navbar {
+    height: 50px;
+    width: 150px;
+    border: none;
+    color: white;
+    background-color:#fc6a09;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.btn-navbar:hover{
+    background-color:#1e2a36;
+    color: #fc6a09;
+    border: 2px solid #fc6a09;
+    cursor: pointer;
+}
+.btn-navbar-out{
+    background-color:#1e2a36;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.btn-navbar-out:hover{
+    color: #fc6a09;
+    border: 2px solid #fc6a09;
+}
+.btn-findblood{
+    height: 50px;
+    width: 150px;
+    border: none;
+    color: white;
+    background-color:#fc6a09;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-left: 345px;
+
+}
+.btn-findblood:hover{
+    background-color: rgba(255, 255, 255, 0.174);
+    border: 2px solid #fc6a09;
+    cursor: pointer;
+    font-weight: bold;
 }

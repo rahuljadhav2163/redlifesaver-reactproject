@@ -1,3 +1,56 @@
-.navbar{
-    text-align: center;
+.nav-container{
+background-color: #1e2a36;
+width: 100hh;
+height: 115px;
+display: flex;
+}
+.nav-item-container{
+    background-color: #fc6a09;
+    height: 60px;
+    width: 100hh;
+}
+.logo{
+    width: 250px;
+    height: 70px;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+.call-icon{
+    color: white;
+    font-size: 34px;
+    margin-left: 420px;
+    margin-top: 37px;
+}
+.mob-no{
+    color: white;
+    font-size: 20px;
+    padding-left: 17px;
+    padding-top: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.our-tean{
+    margin-top: 7px;
+    color: #aaaaaaa7;
+}
+.link-tag{
+    color: white;
+    font-size: 16px;
+    margin: 15px;
+    cursor: pointer;
+}
+.home-link{
+    margin: 0;
+    padding-top: 20px;
+    margin-left: 650px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.danate-us{
+    background-color: #e45d03;
+    border: none;
+    padding: 22px;
+    margin-top: -25px;
+    margin-left: 90px;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
 }
