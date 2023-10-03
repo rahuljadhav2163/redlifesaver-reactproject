@@ -66,3 +66,16 @@
     border: 2px solid #fc6a09;
     cursor: pointer;
 }
+.btncardout{
+    border: 2px solid white;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 220px;
+    margin-top: 20px;
+    background-color: #fc6a09;
+    color: white;
+}
+

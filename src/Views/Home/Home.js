@@ -1,13 +1,14 @@
 import React from 'react'
 import "./Home.css"
 import Navbar from "./../../Component/Navbar/Navbar"
-import { FindBlood } from './../../Component/Button/Button'
+import { Cardbtn, FindBlood } from './../../Component/Button/Button'
+import { Outbtn } from './../../Component/Button/Button'
 function Home() {
   return (
     <div>
 
       <div className='background-img'>
-        <Navbar />
+        <Navbar/>
         <div className='container-blood-find'>
           <div className='homeform-container'>
             <select className="selectgroup">
@@ -47,15 +48,32 @@ function Home() {
 
           <div className='card-home'>
             <p className='name-danation'>Donation</p>
-            <p className='rupees'><i class="bi bi-currency-rupee"></i></p>
+           <div className='container-donation'>
+             <p className='rupees'><i class="bi bi-currency-rupee"></i></p>
+             <p> <span className='danate-line'>We are graetfull for our real hero and hope for them always success who help danate.<Cardbtn value="Danate Us"/></span></p>
+          
+           </div>
+           
+           
           </div>
-
-          <div className='card-homee'>
+           
+          <div className='card-home'>
             <p className='name-danation'>Volunteer</p>
+            <div className='container-donation'>
+             <p className='rupees'><i class="bi bi-person-heart"></i></p>
+             <p> <span className='danate-line'>You will become a vital part of biggest blood donation organization Red Life Saver team in.<Cardbtn value="Joinn Now"/></span></p>
+           </div>
           </div>
+          
+
 
           <div className='card-home'>
             <p className='name-danation'>Causes</p>
+            <div className='container-donation'>
+             <p className='flag'><i class="bi bi-flag-fill"></i></p>
+             <p> <span className='danate-line'>Red life saver team recieve today recent causes to fundering for capable charitable project.<span className='btnnnn'><Cardbtn value="Causes"/></span></span></p>
+           </div>
+           
           </div>
 
 
