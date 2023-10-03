@@ -97,8 +97,7 @@
 
 .card-home {
     height: 240px;
-    width: calc(50% - 20px); 
-    margin: 10px;
+    width: calc(50% - 0px); 
     margin-top: 0px;
     background-color:#e45d03;
 }
@@ -142,6 +141,28 @@
 }
 .btnnnn {
     margin: 0;
+}
+.count-line{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.homii{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.countcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.donateblood-img{
+    height: 300px;
+    margin: 80px;
+}
+.containrdonater{
+    display: flex;
 }
 
 

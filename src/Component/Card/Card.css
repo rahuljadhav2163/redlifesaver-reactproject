@@ -1,3 +1,14 @@
-.card{
+.count-card{
+    height: 100px;
+    width: 120px;
+    background-color: #fc6a09;
+    border-radius: 4px;
+    margin-left:0px;
+}
+.numer-count{
     text-align: center;
+    color: white;
+}
+.num{
+    margin-top: -10px;
 }
