@@ -55,9 +55,30 @@ background-position: center;
   
 }
 .city-name-high{
-    color: rgb(255, 42, 0);
+    color: rgb(64, 0, 255);
 }
 
 .city-title{
-    color: rgb(255, 3, 3);
+    color: rgb(64, 0, 255);
+}
+.description{
+    font-size: 18px;
+}
+.btn-new{
+    color: red;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+}
+.cityName{
+    cursor: pointer;
+
+}
+.cityName:hover{
+    color: blue;
 }
