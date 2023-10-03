@@ -1,4 +1,42 @@
 {
-    "title":"event",
-    "description":"this is evnt page"
+    "events": [
+        {
+  
+
+            
+            "imgEvent": "https://csrbox.org/company/proj_img/1520509436blood-donation.jpg",
+            "button": "new",
+         
+            "date": "(5th Octomber 2023)",
+            "title": "SMT KASHIBAI NAVALE GENERAL HOSPITAL BLOOD CENTER ",
+            "description": "A blood donation camp will be held at STES Campus in Ambegaon, Pune. You can contact them at 9923056961 for more details. The camp is being organized by the Smt. Kashibai Navale General Hospital Blood Centre and conducted by Dr. Sudhir Chavan. The camp is scheduled to take place from 09:00 AM to 04:00 PM. Donating blood is a noble act that can help save lives, so if you're interested, please consider participating in this event."
+        },
+        {
+            "img": "https://www.redcrossmaharashtra.org/gallery-img/Dental%20check%20up%20Arvi%209.9.23.jpeg",
+            "title": "FIRST AID DAY CELEBRATED ON 9TH SEPTEMBER 2023",
+            "date": "(9th september 2023)",
+            "imgEvent": "https://www.redcrossmaharashtra.org/gallery-img/First%20Aid%20Garware%20College%20Pune%209.9.23.jpeg",
+            "description": "On the occasion of 'First Aid Day' IRCS Pune District Branch organised First Aid and CPR awareness program at Modern College, Ganeshkhind and Garware College of Commerce (Jr.College) on 9th September 2023. Dr Naresh Munot, Dr. Rajkumar Shah and Mrs. Alka Dalvi imparted the training. Total 100 students along with teaching staff participated."
+         
+        },
+        {
+      
+            "title": "MOBILE BLOOD COLLECTION VAN HANDED OVER FOR OPERATIONAL PURPOSES TO RAJARSHI SHAHU BLOOD CENTRE",
+            "imgEvent": "https://www.redcrossmaharashtra.org/gallery-img/Kolhapur%20Blood%20Collection%20Van%2026-8-23.jpeg",
+            "date": "(26th August 2023)",
+    
+            "description": "Rajarshi Shahu Blood Centre, Kolhapur is jointly run by IRCS Kolhapur District Branch & Rotary Samaj Seva Kendra, Kolhapur.Mobile Blood Collection Van donated by IFRC through IRCS National Headquarters, New Delhi & facilitated by IRCS Maharashtra State Branch to Kolhapur Red Cross was handed over for operational purposes to Rajarshi Shahu Blood Centre under the direct supervision/control & ownership of Kolhapur Red Cross Branch. Hon'ble Member of Parliament Shri Sharad Pawar Ji was the Chief Guest during the ceremony on 26th August, 2023. Kolhapur Red Cross Branch managing committee members, staff & Rajarshi Shahu Blood Centre staff were present on the occasion."
+          
+     
+        },
+        {
+           
+            "title": "SANE GURUJI AROGYA KENDRA IN HADAPSAR",
+            "date": "(2nd March 2023)",
+            "imgEvent": "https://images.hindustantimes.com/rf/image_size_640x362/HT/p2/2016/06/14/Pictures/blood-donation-camp-at-iehe_06c40a76-322c-11e6-a1a7-3aade94c5b51.jpg",
+            "description": "A blood donation camp is scheduled for the 2nd of March, 2023, at Sane Guruji Arogya Kendra in Hadapsar. The camp aims to support and collect blood donations for a total of 69 patients in need. Participating in blood donation events like this one can make a significant difference in saving lives, so if you're available, consider joining and contributing to this important cause."
+     
+        }
+      
+    ]
 }

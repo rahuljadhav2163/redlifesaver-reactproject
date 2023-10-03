@@ -1,3 +1,84 @@
 .event{
     text-align: center;
 }
+.img-blood{
+    display: block;
+    margin: 0 auto;
+}
+.image-back{
+
+background-image: url("https://www.jainuniversity.ac.in/uploads/blog/55e8765cf014adb0449c690a1c393cc7.jpg");
+background-repeat: no-repeat;
+ background-size: cover;
+ height: 500px;
+
+background-position: center;
+
+
+}
+.text-quote{
+    text-align: center; 
+    font-size: 40px;
+    color: rgb(251, 46, 5)
+}
+.event-city-container{
+    display: flex;
+
+    height: 300px;
+    width: 1300px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+
+
+}
+.title-events{
+    text-align: center;
+    color: blue;
+
+    
+}
+.event{
+    margin-left: 150px;
+}
+.activity{
+    display: flex;
+}
+.title-description{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin-left: 80px;
+    margin-top: -20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    text-align: left;
+  
+}
+.city-name-high{
+    color: rgb(64, 0, 255);
+}
+
+.city-title{
+    color: rgb(64, 0, 255);
+}
+.description{
+    font-size: 18px;
+}
+.btn-new{
+    color: red;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+}
+.cityName{
+    cursor: pointer;
+
+}
+.cityName:hover{
+    color: blue;
+}
