@@ -1,4 +1,17 @@
 {
-    "title":"event",
-    "description":"this is evnt page"
+    "events":[
+        {
+            "img":"https://www.redcrossmaharashtra.org/gallery-img/Dental%20check%20up%20Arvi%209.9.23.jpeg",
+
+            "title":"MOBILE BLOOD COLLECTION VAN HANDED OVER FOR OPERATIONAL PURPOSES TO RAJARSHI SHAHU BLOOD CENTRE",
+
+            "description":"(26th August 2023) Rajarshi Shahu Blood Centre, Kolhapur is jointly run by IRCS Kolhapur District Branch & Rotary Samaj Seva Kendra, Kolhapur.Mobile Blood Collection Van donated by IFRC through IRCS National Headquarters, New Delhi & facilitated by IRCS Maharashtra State Branch to Kolhapur Red Cross was handed over for operational purposes to Rajarshi Shahu Blood Centre under the direct supervision/control & ownership of Kolhapur Red Cross Branch. Hon'ble Member of Parliament Shri Sharad Pawar Ji was the Chief Guest during the ceremony on 26th August, 2023. Kolhapur Red Cross Branch managing committee members, staff & Rajarshi Shahu Blood Centre staff were present on the occasion."
+
+        }
+    
+
+       
+    ]
 }
+    
+

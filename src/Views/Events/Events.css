@@ -1,3 +1,45 @@
 .event{
     text-align: center;
 }
+.img-blood{
+    display: block;
+    margin: 0 auto;
+}
+.image-back{
+
+background-image: url("https://www.jainuniversity.ac.in/uploads/blog/55e8765cf014adb0449c690a1c393cc7.jpg");
+background-repeat: no-repeat;
+ background-size: cover;
+ height: 500px;
+
+background-position: center;
+
+
+}
+.text-quote{
+    text-align: center; 
+    font-size: 40px;
+    color: rgb(251, 46, 5)
+}
+.event-city-container{
+    display: flex;
+
+    height: 300px;
+    width: 1300px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+
+
+}
+.title-events{
+    text-align: center;
+    color: blue;
+
+    
+}
+.event{
+    margin-left: 150px;
+}
+
+
