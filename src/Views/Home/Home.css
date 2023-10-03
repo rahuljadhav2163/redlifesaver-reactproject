@@ -1,3 +1,126 @@
-.home{
+.home {
     text-align: center;
 }
+
+.background-img {
+    background-image: url("./img/blood.jpg");
+    background-size: cover;
+    height: 115.5vh;
+}
+
+.container-blood-find {
+    display: flex;
+    margin-top: 30px;
+}
+
+.homeform-container {
+    background-color: rgba(0, 0, 0, 0.47);
+    height: 300px;
+    width: 520px;
+    margin: 60px;
+    margin-left: 120px;
+    border-radius: 3px;
+}
+
+.home-danateline {
+    color: white;
+    margin: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.crl-container {
+    display: flex;
+}
+
+.cirlefirst {
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    margin-top: -20px;
+    margin-left: 100px;
+    background-color: rgba(255, 255, 255, 0.226);
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.868);
+    cursor: pointer;
+}
+
+.drop-blood {
+    font-size: 70px;
+    color: aliceblue;
+    margin: 10px;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+.blood-bonor-text {
+    font-size: 25px;
+    margin-left: 52px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.doner-text {
+    margin-left: 30px;
+}
+
+.selectgroup {
+    height: 43px;
+    width: 210px;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-left: 40px;
+    border-radius: 4px;
+}
+
+.state {
+    height: 40px;
+    width: 194px;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-left: 40px;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+.conatiner-cards-home {
+    display: flex;
+    width: 100hh;
+}
+
+.card-home {
+    height: 240px;
+    width: 505px;
+    border: 1px solid orange;
+    opacity: 0.6;
+    background-color: #fc6a09;
+    box-shadow: 0px 1px 2px 1px black;
+}
+.card-homee {
+    height: 240px;
+    width: 505px;
+    border: 1px solid orange;
+    opacity: 0.6;
+    background-color: #f48a44f2;
+    box-shadow: 0px 1px 2px 1px black;
+}
+.name-danation {
+    margin-left: 177px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+.gggg{
+    height: 1000px;
+    width: 100hh;
+    background-color: #fff;
+}
+.rupees{
+    font-size: 60px;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+
+
+
+
