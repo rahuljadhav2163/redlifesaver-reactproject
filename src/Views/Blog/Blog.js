@@ -10,7 +10,9 @@ function Blogs() {
 <div className='blog-container'>
           {
               Blog.map((post, index) => {
-                return<PreviewBlogCard key={index} id={post.id} title={post.title} description={post.description}/>
+                return(
+                <PreviewBlogCard key={index} id={post.id} title={post.title} description={post.description}/>
+                ) 
               })
 
           }
