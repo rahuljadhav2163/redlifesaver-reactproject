@@ -41,5 +41,23 @@ background-position: center;
 .event{
     margin-left: 150px;
 }
+.activity{
+    display: flex;
+}
+.title-description{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin-left: 80px;
+    margin-top: -20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    text-align: left;
+  
+}
+.city-name-high{
+    color: rgb(255, 42, 0);
+}
 
-
+.city-title{
+    color: rgb(255, 3, 3);
+}
