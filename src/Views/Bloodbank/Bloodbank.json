@@ -1,7 +1,6 @@
-[
-    {
-        "districtMaha" : "pune"
-          
-    }
-
-]
+{
+    "Maharashtra" : ["Pune","Mumbai","Nagpur","Sambhajinagr","Nashik"],
+    "Uttar-Pradesh" : ["Varanasi","Agra","Lucknow","Gaziabad"],
+    "Bihar" : ["Patna","Arwal","Bhagalpur","Begusarai"],
+    "Punjab" : ["Amritsar","Jalandhar","Ludhiyana","Bathinda"]
+}
