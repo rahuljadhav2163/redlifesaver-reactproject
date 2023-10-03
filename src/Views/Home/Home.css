@@ -1,3 +1,4 @@
+
 .home {
     text-align: center;
 }
@@ -5,7 +6,7 @@
 .background-img {
     background-image: url("./img/blood.jpg");
     background-size: cover;
-    height: 115.5vh;
+    height: 85vh;
 }
 
 .container-blood-find {
@@ -22,6 +23,7 @@
     border-radius: 3px;
 }
 
+
 .home-danateline {
     color: white;
     margin: 50px;
@@ -30,9 +32,11 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
 .crl-container {
     display: flex;
 }
+
 
 .cirlefirst {
     height: 230px;
@@ -44,6 +48,7 @@
     box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.868);
     cursor: pointer;
 }
+
 
 .drop-blood {
     font-size: 70px;
@@ -60,9 +65,6 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.doner-text {
-    margin-left: 30px;
-}
 
 .selectgroup {
     height: 43px;
@@ -83,44 +85,107 @@
     padding-left: 10px;
 }
 
+
 .conatiner-cards-home {
+    margin-top: 12px;
     display: flex;
-    width: 100hh;
+    flex-wrap: wrap; 
+    width: 100%;
+    justify-content: center; 
 }
+
 
 .card-home {
     height: 240px;
-    width: 505px;
-    border: 1px solid orange;
-    opacity: 0.6;
-    background-color: #fc6a09;
-    box-shadow: 0px 1px 2px 1px black;
+    width: calc(50% - 20px); 
+    margin: 10px;
+    margin-top: 0px;
+    background-color:#e45d03;
 }
-.card-homee {
-    height: 240px;
-    width: 505px;
-    border: 1px solid orange;
-    opacity: 0.6;
-    background-color: #f48a44f2;
-    box-shadow: 0px 1px 2px 1px black;
-}
+
+
 .name-danation {
-    margin-left: 177px;
     font-size: 35px;
     font-weight: bold;
     color: white;
+    text-align: center;
 }
-.gggg{
-    height: 1000px;
-    width: 100hh;
-    background-color: #fff;
-}
-.rupees{
+
+.rupees {
     font-size: 60px;
     margin-left: 40px;
-    margin-top: 0px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.danate-line {
+    color: black;
+    font-size: 20px;
+    margin-top: -50px;
+    color: white;
 }
 
 
+.container-donation {
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+    color: white;
+}
 
 
+.flag {
+    font-size: 60px;
+    margin-left: 40px;
+    margin-top: 25px;
+    padding-right: 10px;
+}
+.btnnnn {
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .homeform-container {
+        width: 100%; 
+        margin: 20px; 
+    }
+
+    
+    .cirlefirst {
+        height: 150px;
+        width: 150px;
+        margin-left: 20px;
+    }
+
+
+    .drop-blood {
+        font-size: 40px;
+        padding-left: 30px;
+        padding-top: 5px;
+    }
+
+    .blood-bonor-text {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .selectgroup,
+    .state {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+
+   
+
+    .card-homee {
+        width: 100%; 
+    }
+
+    .name-danation,
+    .rupees,
+    .danate-line,
+    .flag {
+        text-align: center; 
+    }
+}
