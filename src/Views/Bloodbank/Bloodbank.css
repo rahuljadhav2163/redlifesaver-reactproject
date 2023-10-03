@@ -1,3 +1,16 @@
-.bloodbank{
-    text-align: center;
+.bb-heading{
+    color: rgb(177, 12, 12);
+    margin-left: 185px;
+}
+.main-input-div{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+.list-item-find{
+    padding: 14px;
+    width: 300px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 17px;
 }
