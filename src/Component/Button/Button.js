@@ -25,3 +25,10 @@ export function FindBlood({named}) {
     </button>
   )
 }
+
+  export function SearchBtn({search}) {
+    return (
+      <button className='btn-search'><i class="bi bi-search-heart"></i> {search}  
+      </button>
+    )
+}
