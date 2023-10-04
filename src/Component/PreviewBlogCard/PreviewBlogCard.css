@@ -5,7 +5,11 @@
 .preview-blog-card{
     border: 1px solid black;
     margin: 10px;
-    height: 300px;
+    height: 500px;
     width: 400px;
-    padding-left: 60px;
+    padding-left: 20px;
+}
+.donor-image{
+    margin-top: 40px;
+    height: 200px;
 }

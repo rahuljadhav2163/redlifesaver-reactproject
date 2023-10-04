@@ -11,7 +11,7 @@ function Blogs() {
           {
               Blog.map((post, index) => {
                 return(
-                <PreviewBlogCard key={index} id={post.id} title={post.title} description={post.description}/>
+                <PreviewBlogCard key={index} id={post.id} title={post.title} date={post.date} image={post.image}/>
                 ) 
               })
 

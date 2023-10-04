@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import Blog from "./../Blog/blog.json"
 
 function ReadBlog(){
-    const {id}=useParams()
+    const {id}=useParams({title, description})
 
 const [post, setPost]=useState({})
 
