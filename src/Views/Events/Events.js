@@ -39,18 +39,7 @@ function Events() {
               const { img, title, description, date,imgEvent, imgEventnew1, dateEventNew,titleEvent1,descriptionEvent1,button} = eventDeta;
 
               return (<>
-              {/* <div className='activity'>
-                  <div>
-                    <img src={imgEventnew1} height={190} width={230} style={{boxShadow:"0 0 5px rgb(128, 127, 127)"}}/>
-               
-                  </div>
-                  <div className='title-description'>
-                    <h3>{titleEvent1}</h3>
-                    <b>{dateEventNew}</b>
-                    <p className='description'>{descriptionEvent1}</p>
-                  </div>
-                </div> */}
-
+             
                 <div className='activity'>
                   <div>
                     <img src={imgEvent} height={190} width={230} />
