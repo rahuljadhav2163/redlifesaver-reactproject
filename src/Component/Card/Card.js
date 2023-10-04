@@ -38,3 +38,21 @@ function Card({name,address,date,numbar,group}) {
 }
 
 export default Card
+
+
+
+export function Cardsponcer({title,text,img,name,slogen}) {
+  return (
+    <div>
+
+      <div className="spncer-card">
+          <h1 className="sponcer-title">{title}</h1>
+          <p className="sponcer-text">{text}</p><hr/>
+          <img className="sponce-img" src={img}/>
+          <p className="sponce-name">{name}</p>
+          <p className="sponce-slogen">{slogen}</p>
+      </div>
+    </div>
+  )
+}
+

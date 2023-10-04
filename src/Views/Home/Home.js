@@ -1,4 +1,4 @@
-import React, { useState , useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import "./Home.css"
 import Navbar from "./../../Component/Navbar/Navbar"
 import { Cardbtn, FindBlood } from './../../Component/Button/Button'
@@ -7,22 +7,24 @@ import Datacount from "./Home.json"
 import Donateblood from './img/donate-blood-haert.jpg'
 import { useNavigate } from 'react-router-dom';
 import Donerdata from "./../../Views/Showdonor/Showdonar.json"
-
+import { Cardsponcer } from "./../../Component/Card/Card"
 import Showdonor from '../Showdonor/Showdonor'
+import Sponceimg from "./img/sponsorship.jpeg"
+import Simg from "./img/Sponsorship-2048x1452.jpeg"
 function Home() {
 
 
   const [bloodcount, setBloodCount] = useState(Datacount);
   const navigate = useNavigate();
-  const [ddata , setddata] = useState(Donerdata);
-  const [search , setSearch] = useState("");
+  const [ddata, setddata] = useState(Donerdata);
+  const [search, setSearch] = useState("");
 
-        
+
   const findpage = () => {
     navigate(`/showdonar/${search}`);
   }
-  
-  
+
+
   return (
     <div>
 
@@ -30,7 +32,7 @@ function Home() {
         <Navbar />
         <div className='container-blood-find'>
           <div className='homeform-container'>
-            <select onChange={(e) => {setSearch(e.target.value)}} className="selectgroup">
+            <select onChange={(e) => { setSearch(e.target.value) }} className="selectgroup">
               <option>Blood Group :</option>
               <option>A+</option>
               <option>A-</option>
@@ -45,7 +47,7 @@ function Home() {
             <input type='text' className="state" placeholder='District' />
             <input type='text' className="state" placeholder='Adress' />
             <button type='button' onClick={findpage} className='donar-find'>Find Donar</button>
-           
+
           </div>
           <div>
             <p className='home-danateline'>Danate Blood Give The Gift Of Life</p>
@@ -116,13 +118,25 @@ function Home() {
           <div>
             <p className='shoulddonate'>Why Should Donate Blood ?</p>
             <p className='should-text'>Our nation requires 4 Crore Units of Blood while only 40 lakh units are available. Every two seconds someone needs Blood There is no substitute for Human Blood. It cannot be manufactured Blood donation is an extremely noble deed, It cannot be manufactured Blood donation is an extremely noble deed yet there is a scarcity of regular donors yet there is a scarcity of regular donors across India. We focus on creating & expanding a Virtual army of blood donating volunteers who could be searched and contacted by family/caregivers of a patient in times of need .</p>
-
+            <button className='btn-bedonar'>Be A Donor</button>
 
           </div>
         </div>
 
         <div>
+          <p className='text-sponcer'>OUR SPONCER</p>
+          <div className='sponser-container'>
+            <Cardsponcer title="Which service we provide ?" text=" Reetack Web development is the perfect matching of your business need because we provide to your business in the impressive way with branding your business need because  provide to your business in the impressive  with branding ." img={Sponceimg}
+              name="Lucky" slogen="Web Devoloper" />
+            <Cardsponcer title="We deliver the succes to every scale" text=" 01 Web Design & Development
+             02 Android app Development 03 E-Commerce Websites 04 Graphics Design 05 Social SEO/SEM 06 Software
+                   Development app Development 03 E-Commerce Websites 04 Graphics Design 05 Social SEO/SEM 06  ." img={Simg}
+              name="Kotak" slogen="Limite Agency" />
+            <Cardsponcer title="Which service we provide ?" text=" Reetack Web development is the perfect matching of your business need because we provide to your business in the impressive way with branding your business need because  provide to your business in the impressive  with branding ." img={Sponceimg}
+              name="Reetack" slogen="Web Solution" />
 
+
+          </div>
 
         </div>
       </div>

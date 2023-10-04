@@ -47,7 +47,7 @@
     padding-top: 5px;
     font-size: 15px;
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
     color: white;
 }
@@ -59,11 +59,12 @@
     font-size: 15px;
     width: 275px;
     background-color: #eee;
-     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 41px;
     cursor: pointer;
 }
-.bld-grp{
+
+.bld-grp {
     position: absolute;
     top: -25px;
     right: 0px;
@@ -76,4 +77,44 @@
     padding-bottom: 10px;
     padding-left: 14px;
     padding-right: 14px;
+}
+
+.spncer-card {
+    height: 420px;
+    width: 350px;
+    box-shadow: 0 0 3px 0.5px black;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.sponcer-title {
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+.sponcer-text {
+    margin-left: 20px;
+    font-size: 18px;
+    padding-bottom: 35px;
+}
+
+.sponce-img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 270px;
+}
+
+.sponce-name {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    padding-top: 15px;
+
+}
+.sponce-slogen{
+    margin-left: 20px;
 }
