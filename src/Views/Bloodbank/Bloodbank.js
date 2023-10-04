@@ -3,6 +3,7 @@ import "./Bloodbank.css";
 import Navbar from '../../Component/Navbar/Navbar';
 import { SearchBtn } from './../../Component/Button/Button';
 import Bloodbank from './Bloodbank.json';
+import Footer from '../../Component/Footer/Footer';
 
 function Bloodbanks() {
   const [selectedState, setSelectedState] = useState('');
@@ -47,7 +48,9 @@ function Bloodbanks() {
           <SearchBtn search="Search"/>
         </div>
       </div>
+     <Footer/>
     </div>
+    
   );
 }
 
