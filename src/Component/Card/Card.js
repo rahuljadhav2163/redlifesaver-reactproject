@@ -1,5 +1,6 @@
 import React from "react";
 import "./Card.css";
+import Cardimg from "./cardimggg.png";
 
 export  const Countcard = (props) => {
   const {number , group} = props;
@@ -13,9 +14,26 @@ export  const Countcard = (props) => {
 };
 
 
-function Card() {
+function Card({name,address,date,numbar,group}) {
   return (
-    <div>Card</div>
+    <div className="blood-grp-container">
+          <div className="containt-container">
+           <img className="cardimgg" src={Cardimg}/>
+           <div>
+            <p className="bld-grp">{group}</p>
+            <h1>{name}</h1>
+            <h3>{address}</h3>
+            <p>With Us From : {date}</p>
+            <p>Contact : {numbar}</p>
+            </div>
+
+          </div>
+          <div className="contact-container">
+            <div className="sms-container"><p><i class="bi bi-envelope-fill"></i> SEND SMS</p></div>
+            <div className="detail-container">MORE DETAIL</div>
+          </div>
+          
+    </div>
   )
 }
 

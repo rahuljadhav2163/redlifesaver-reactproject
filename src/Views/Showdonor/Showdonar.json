@@ -1,18 +1,38 @@
 [
     {
-        "name":"shweta",
+        "name":"Shweta Pund",
         "group":"A+",
-        "address":"hadapsar,pune"
+        "address":"Hadapsar, Pune",
+        "number" : "12121212",
+        "date" : "22-8-2021"
     },
     {
-        "name":"shweta",
+        "name":"Harshad Mehata",
         "group":"A+",
-        "address":"hadapsar,pune"
+        "address":"Katraj, Pune",
+        "number" : "78965859",
+        "date" : "26-8-2021"
+    },
+    {
+        "name":"Pinki Mam",
+        "group":"A+",
+        "address":"Shewalewadi,Pune",
+        "number" : "45859688",
+        "date" : "17-8-2022"
+    },
+    {
+        "name":"Datta Tupe",
+        "group":"A+",
+        "address":"Rahuri, Ahmadnagar",
+        "number" : "63975855",
+        "date" : "22-8-2021"
+      
     },
     {
         "name":"Rahul",
         "group":"B+",
-        "address":"Sambhajinagr"
+        "address":"Sambhajinagr",
+        "number" : "12121212"
     },
     {
 
@@ -44,6 +64,27 @@
         "name" : "saurah",
         "group" : "AB+",
         "address" : "Pune"
+    },
+    {
+        "name":"Narendra Modi",
+        "group":"A+",
+        "address":"PM Hometown, Pune",
+        "number" : "78965859",
+        "date" : "26-8-2021"
+    },
+    {
+        "name":"Vijay Kale",
+        "group":"A+",
+        "address":"Nagar, Mumbai",
+        "number" : "25686965",
+        "date" : "01-10-2023"
+    },
+    {
+        "name":"Kartik Kadam",
+        "group":"A+",
+        "address":"Viajapur, Sambhajinagar",
+        "number" : "98869596",
+        "date" : "01-11-2020"
     }
 
 ]
