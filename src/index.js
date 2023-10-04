@@ -33,7 +33,7 @@ const router = createBrowserRouter([
     element: <Bloodbank />,
   },
   {
-    path: "/showdonar",
+    path: "/showdonar/:bloodGroup",
     element: < Showdonor/>,
   },
 ]);

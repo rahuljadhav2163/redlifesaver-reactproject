@@ -1,18 +1,28 @@
-import React, { useState } from 'react'
+import React, { useState , useEffect } from 'react'
 import "./Home.css"
 import Navbar from "./../../Component/Navbar/Navbar"
 import { Cardbtn, FindBlood } from './../../Component/Button/Button'
 import { Countcard } from '../../Component/Card/Card'
 import Datacount from "./Home.json"
 import Donateblood from './img/donate-blood-haert.jpg'
+import { useNavigate } from 'react-router-dom';
+import Donerdata from "./../../Views/Showdonor/Showdonar.json"
 
 import Showdonor from '../Showdonor/Showdonor'
 function Home() {
 
 
   const [bloodcount, setBloodCount] = useState(Datacount);
-  
+  const navigate = useNavigate();
+  const [ddata , setddata] = useState(Donerdata);
+  const [search , setSearch] = useState("");
 
+        
+  const findpage = () => {
+    navigate(`/showdonar/${search}`);
+  }
+  
+  
   return (
     <div>
 
@@ -20,7 +30,7 @@ function Home() {
         <Navbar />
         <div className='container-blood-find'>
           <div className='homeform-container'>
-            <select className="selectgroup">
+            <select onChange={(e) => {setSearch(e.target.value)}} className="selectgroup">
               <option>Blood Group :</option>
               <option>A+</option>
               <option>A-</option>
@@ -34,7 +44,8 @@ function Home() {
             <input type='text' className="state" placeholder='State' />
             <input type='text' className="state" placeholder='District' />
             <input type='text' className="state" placeholder='Adress' />
-            <FindBlood named="Find Blood" />
+            <button type='button' onClick={findpage} className='donar-find'>Find Donar</button>
+           
           </div>
           <div>
             <p className='home-danateline'>Danate Blood Give The Gift Of Life</p>

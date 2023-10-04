@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Button.css"
-import Groupdata from "./../../Views/Showdonor/Showdonar.json"
-import { useNavigate } from 'react-router-dom';
+
 
 
 function Button({ text }) {
@@ -22,24 +21,7 @@ export function Outbtn({ btnname }) {
   )
 }
 
-export function FindBlood({ named }) {
 
-  const navigate = useNavigate();
-
-   const [donarData , setDonarData] = (Groupdata);
-   
-
-   
-
-  const findpage = () => {
-    navigate('/showdonar');
-  }
-
-  return (
-    <button onClick={findpage} className='btn-findblood'> {named}
-    </button>
-  )
-}
 
 export function SearchBtn({ search }) {
   return (
