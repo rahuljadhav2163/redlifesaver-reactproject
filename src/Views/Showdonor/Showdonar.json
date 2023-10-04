@@ -1,90 +1,268 @@
 [
     {
-        "name":"Shweta Pund",
-        "group":"A+",
-        "address":"Hadapsar, Pune",
-        "number" : "12121212",
-        "date" : "22-8-2021"
+        "name": "Shweta Pund",
+        "group": "A+",
+        "address": "Hadapsar, Pune",
+        "number": "12121212",
+        "date": "22-8-2021"
     },
     {
-        "name":"Harshad Mehata",
-        "group":"A+",
-        "address":"Katraj, Pune",
-        "number" : "78965859",
-        "date" : "26-8-2021"
+        "name": "Harshad Mehata",
+        "group": "A+",
+        "address": "Katraj, Pune",
+        "number": "78965859",
+        "date": "26-8-2021"
     },
     {
-        "name":"Pinki Mam",
-        "group":"A+",
-        "address":"Shewalewadi,Pune",
-        "number" : "45859688",
-        "date" : "17-8-2022"
+        "name": "Pinki Mam",
+        "group": "A+",
+        "address": "Shewalewadi,Pune",
+        "number": "45859688",
+        "date": "17-8-2022"
     },
     {
-        "name":"Datta Tupe",
-        "group":"A+",
-        "address":"Rahuri, Ahmadnagar",
-        "number" : "63975855",
-        "date" : "22-8-2021"
-      
+        "name": "Datta Tupe",
+        "group": "A+",
+        "address": "Rahuri, Ahmadnagar",
+        "number": "63975855",
+        "date": "22-8-2021"
     },
     {
-        "name":"Rahul",
-        "group":"B+",
-        "address":"Sambhajinagr",
-        "number" : "12121212"
+        "name": "Rahul Jadhav",
+        "group": "B+",
+        "address": "JyotiNagar, Sambhajinagar",
+        "number": "7057461164",
+        "date": "18-1-2023"
     },
     {
-
-        "name":"nikita",
-        "group":"O+",
-        "address":"nagpur"
+        "name": "Nikita Kadiwike",
+        "group": "O+",
+        "address": "Nagpur",
+        "date": "22-8-2021",
+        "number": "88549595"
     },
     {
-        "name" : "nitish",
-        "group" : "O-",
-        "address" : "bihar"
+        "name": "Nitish Kumar",
+        "group": "O-",
+        "address": "Bihar",
+        "date": "01-10-2023",
+        "number": "12121212"
     },
     {
-        "name" : "abhijeet",
-        "group" : "B-",
-        "address" : "Pune"
+        "name": "Prasanna Shinde",
+        "group": "B-",
+        "address": "Kada, Ashti",
+        "date": "12-4-2021",
+        "number": "88549595"
     },
     {
-        "name" : "Vicky",
-        "group" : "A-",
-        "address" : "Shegaon"
+        "name": "Vicky Shejole",
+        "group": "A-",
+        "address": "Shegaon",
+        "number": "45859666",
+        "date": "7-8-2021"
     },
     {
-        "name" : "sagar",
-        "group" : "AB-",
-        "address" : "Pune"
+        "name": "Abhishek Gayke",
+        "group": "A-",
+        "address": "Shevgaon, Ahmadnagar",
+        "number": "648989758",
+        "date": "12-5-2021"
     },
     {
-        "name" : "saurah",
-        "group" : "AB+",
-        "address" : "Pune"
+        "name": "Sagar Pawar",
+        "group": "AB-",
+        "address": "Sambhajinagar",
+        "date": "12-4-2021",
+        "number": "45859688"
     },
     {
-        "name":"Narendra Modi",
-        "group":"A+",
-        "address":"PM Hometown, Pune",
-        "number" : "78965859",
-        "date" : "26-8-2021"
+        "name": "Saurah Jaykar",
+        "group": "AB+",
+        "address": "Sangamner",
+        "date": "15-6-2023",
+        "number": "63975855"
     },
     {
-        "name":"Vijay Kale",
-        "group":"A+",
-        "address":"Nagar, Mumbai",
-        "number" : "25686965",
-        "date" : "01-10-2023"
+        "name": "Narendra Modi",
+        "group": "A+",
+        "address": "PM Hometown, Pune",
+        "number": "78965859",
+        "date": "26-8-2021"
     },
     {
-        "name":"Kartik Kadam",
-        "group":"A+",
-        "address":"Viajapur, Sambhajinagar",
-        "number" : "98869596",
-        "date" : "01-11-2020"
+        "name": "Vijay Kale",
+        "group": "A+",
+        "address": "Nagar, Mumbai",
+        "number": "25686965",
+        "date": "01-10-2023"
+    },
+    {
+        "name": "Kartik Kadam",
+        "group": "A+",
+        "address": "Viajapur, Sambhajinagar",
+        "number": "98869596",
+        "date": "01-11-2020"
+    },
+    {
+        "name": "Akash Chavan",
+        "group": "A-",
+        "address": "Chaikalthan, Kannad",
+        "number": "998695412",
+        "date": "04-06-2021"
+    },
+    {
+        "name": "Sagar Wandile",
+        "group": "A-",
+        "address": "Vardha, Maharashtra",
+        "number": "98856236",
+        "date": "15-6-2023"
+    },
+    {
+        "name": "Abhijeet Kokat",
+        "group": "B+",
+        "address": "Georai, Sambhajinagar",
+        "number": "9373700515",
+        "date": "12-4-2023"
+    },
+    {
+        "name": "Siddhu Kadam",
+        "group": "B+",
+        "address": "Aashti , Bid",
+        "number": "78965986",
+        "date": "26-12-2022"
+    },
+    {
+        "name": "Prathamesh K ",
+        "group": "B+",
+        "address": "Kopargaon, Maharashtra",
+        "number": "89656235",
+        "date": "17-5-2022"
+    },
+    {
+        "name": "Rohit Sharma",
+        "group": "B+",
+        "address": "Mumbai",
+        "number": "78959565",
+        "date": "7-09-2022"
+    },
+    {
+        "name": "Mitali Raj",
+        "group": "B+",
+        "address": "Chennai",
+        "number": "785828968",
+        "date": "8-12-2021"
+    },
+    {
+        "name": "Dev Gharte",
+        "group": "B-",
+        "address": "Dhule",
+        "date": "18-9-2019",
+        "number": "69897585"
+    },
+    {
+        "name": "Harsh Acharya",
+        "group": "B-",
+        "address": "Kada Ashti",
+        "date": "4-5-2019",
+        "number": "78546464"
+    },
+    {
+        "name": "Harshvardh K",
+        "group": "AB+",
+        "address": "Yeola",
+        "date": "30-6-2023",
+        "number": "5444545"
+    },
+    {
+        "name": "Anand S",
+        "group": "AB+",
+        "address": "Nagpur",
+        "date": "20-12-2023",
+        "number": "9756485845"
+    },
+    {
+        "name": "Santosh Ajabe",
+        "group": "AB+",
+        "address": "Ahmadnagar",
+        "date": "20-12-2023",
+        "number": "646464664"
+    },
+    {
+        "name": "Ram Tekade",
+        "group": "AB+",
+        "address": "Lasur Station",
+        "date": "20-09-2023",
+        "number": "8897797979"
+    },
+    {
+        "name": "Shyam pawar",
+        "group": "AB-",
+        "address": "Chikhaldara",
+        "date": "12-4-2021",
+        "number": "45859688"
+    },
+    {
+        "name": "Angad Jare",
+        "group": "AB-",
+        "address": "Mumbai",
+        "date": "12-4-2021",
+        "number": "4646499"
+    },
+    {
+        "name": "Nitish Oza",
+        "group": "O+",
+        "address": "Patna",
+        "date": "18-11-2023",
+        "number": "4646499"
+    },
+    {
+        "name": "Suraj Sir",
+        "group": "O+",
+        "address": "Bhandara",
+        "date": "19-2-2021",
+        "number": "79898999"
+    },
+    {
+        "name": "Eknath Shinde",
+        "group": "O+",
+        "address": "Mumbai",
+        "date": "18-11-2023",
+        "number": "4646499"
+    },
+    {
+        "name": "Devendra Fanvis",
+        "group": "O+",
+        "address": "Nagpur",
+        "date": "22-01-2023",
+        "number": "87777888"
+    },
+    {
+        "name": "Ajit Pawar",
+        "group": "O+",
+        "address": "Baramati",
+        "date": "13-3-2021",
+        "number": "7878744712"
+    },
+    {
+        "name": "Parth Pawar",
+        "group": "O-",
+        "address": "Baramati",
+        "date": "13-3-2021",
+        "number": "79644975"
+    },
+    {
+        "name": "Sachin Chavan",
+        "group": "O-",
+        "address": "Shrirampur",
+        "date": "13-3-2021",
+        "number": "868445464"
+    },
+    {
+        "name": "Nitin Achale",
+        "group": "O-",
+        "address": "Shrirampur",
+        "date": "21-6-2020",
+        "number": "868445464"
     }
-
 ]

@@ -15,7 +15,7 @@ function Showdonor() {
   return (
     <div>
       <Navbar/>
-      <h1 className='show-donaer'>Showing Donors for {bloodGroup}</h1>
+      <h1 className='show-donaer'>Showing Donors For {bloodGroup}</h1>
       <div className='display-card-container'>
       {
         filteredData.map((data, index) => {
