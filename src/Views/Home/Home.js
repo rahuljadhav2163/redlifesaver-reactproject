@@ -5,12 +5,13 @@ import { Cardbtn, FindBlood } from './../../Component/Button/Button'
 import { Countcard } from '../../Component/Card/Card'
 import Datacount from "./Home.json"
 import Donateblood from './img/donate-blood-haert.jpg'
+
+import Showdonor from '../Showdonor/Showdonor'
 function Home() {
 
 
   const [bloodcount, setBloodCount] = useState(Datacount);
-
-
+  
 
   return (
     <div>
@@ -90,8 +91,8 @@ function Home() {
         <div className='countcontainer'>
           {
 
-            bloodcount.map((countInfo)=>{
-              const {number,group}=countInfo;
+            bloodcount.map((countInfo) => {
+              const { number, group } = countInfo;
               return (
                 <Countcard number={number} group={group} />
               )
@@ -99,10 +100,20 @@ function Home() {
           }
         </div>
 
-          <div className='containrdonater'>
-          <img className='donateblood-img'  src={Donateblood} />
-          </div>
+        <div className='containrdonater'>
+          <img className='donateblood-img' src={Donateblood} />
+          <div>
+            <p className='shoulddonate'>Why Should Donate Blood ?</p>
+            <p className='should-text'>Our nation requires 4 Crore Units of Blood while only 40 lakh units are available. Every two seconds someone needs Blood There is no substitute for Human Blood. It cannot be manufactured Blood donation is an extremely noble deed, It cannot be manufactured Blood donation is an extremely noble deed yet there is a scarcity of regular donors yet there is a scarcity of regular donors across India. We focus on creating & expanding a Virtual army of blood donating volunteers who could be searched and contacted by family/caregivers of a patient in times of need .</p>
 
+
+          </div>
+        </div>
+
+        <div>
+
+
+        </div>
       </div>
 
     </div>

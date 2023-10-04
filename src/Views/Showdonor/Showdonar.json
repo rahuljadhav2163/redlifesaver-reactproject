@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "name":"abcd",
+        "group":"A+",
+        "address":"hadapsar,pune"
+    },
+    {
+        "id": "2",
+        "name":"Rahul",
+        "group":"B+",
+        "address":"Sambhajinagr"
+    },
+    {
+        "id": "1",
+        "name":"nikita",
+        "group":"O+",
+        "address":"nagpur"
+    }
+]

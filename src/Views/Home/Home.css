@@ -164,6 +164,18 @@
 .containrdonater{
     display: flex;
 }
+.shoulddonate{
+    font-size: 30px;
+     margin-left: 30px;
+     margin-top: 80px;
+     font-weight: bold;
+}
+.should-text{
+    text-align: justify;
+    margin-right: 130px;
+    margin-left: 30px;
+    font-size: 20px;
+}
 
 
 @media (max-width: 768px) {
