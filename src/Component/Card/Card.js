@@ -56,3 +56,14 @@ export function Cardsponcer({title,text,img,name,slogen}) {
   )
 }
 
+
+
+export  function Cardtype({head,text,btnname}) {
+  return (
+    <div className="carddd-container">
+      <h2 className="heading-card">{head}</h2>
+      <p className="text-card">{text}</p>
+      <button className="btn-card-btn">{btnname}</button>
+    </div>
+  )
+}
