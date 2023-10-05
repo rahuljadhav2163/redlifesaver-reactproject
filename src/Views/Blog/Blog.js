@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Blog.css"
-import Blog from "./blog.json"
+import Blog from "./Blog.json"
 import PreviewBlogCard from './../../Component/PreviewBlogCard/PreviewBlogCard'
 
 function Blogs() {
