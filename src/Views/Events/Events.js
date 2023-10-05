@@ -2,10 +2,11 @@ import React, { useState } from 'react'
 import "./Events.css"
 import Navbar from './../../Component/Navbar/Navbar'
 import Config from './Events.json';
+import { Link } from 'react-router-dom'
 
 
 function Events() {
-  
+
 
   return (
     <>
@@ -25,9 +26,12 @@ function Events() {
           <h1 className='city-title'>City</h1>
 
           <h2 className='cityName'>Pune</h2>
-          <h2 className='cityName'>Nagpur</h2>
-          <h2 className='cityName'>Dhule</h2>
-          <h2 className='cityName'>Mumbai</h2>
+          <Link to="/event/cityeventpage"> <h2 className='cityName'>Nagpur</h2></Link>
+          <Link to="/event/cityeventpage"><h2 className='cityName'>Dhule</h2></Link>
+          <Link to="/event/cityeventpage"><h2 className='cityName'>Mumbai</h2></Link>
+
+
+
         </div>
 
         <div className='event'>
@@ -36,32 +40,31 @@ function Events() {
 
           {
             Config.events.map((eventDeta, index) => {
-              const { img, title, description, date,imgEvent, imgEventnew1, dateEventNew,titleEvent1,descriptionEvent1,button} = eventDeta;
+              const { img, title, description, date, imgEvent, imgEventnew1, dateEventNew, titleEvent1, descriptionEvent1, button } = eventDeta;
 
               return (<>
-             
+
                 <div className='activity'>
                   <div>
                     <img src={imgEvent} height={190} width={230} />
-                 
+
                   </div>/
                   <div className='title-description'>
-                   <h3>{title} <span className='btn-new'>{button}</span></h3>
+                    <h3>{title} <span className='btn-new'>{button}</span></h3>
                     <b>{date}</b>
                     <p>{description}</p>
-                   
+
                   </div>
                 </div>
-                <br/>
-                
-                  </>
+                <br />
+
+              </>
               )
             }
 
             )
-
-
-          }
+          },
+         
         </div>
       </div>
 

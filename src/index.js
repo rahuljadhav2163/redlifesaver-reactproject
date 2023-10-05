@@ -9,6 +9,7 @@ import Blog from "./Views/Blog/Blog";
 import Bloodbank  from './Views/Bloodbank/Bloodbank';
 import Events from './Views/Events/Events';
 import Home from './Views/Home/Home';
+import CityEventPage from './Views/Events/CityEventPage/CityEventPage';
 
 
 const router = createBrowserRouter([
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/bloodbank",
     element: <Bloodbank />,
+  },
+  {
+    path: "event/cityeventpage",
+    element: <CityEventPage />,
   },
 ]);
 
