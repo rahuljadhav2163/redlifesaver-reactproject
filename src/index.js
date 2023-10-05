@@ -9,7 +9,11 @@ import Blog from "./Views/Blog/Blog";
 import Bloodbank  from './Views/Bloodbank/Bloodbank';
 import Events from './Views/Events/Events';
 import Home from './Views/Home/Home';
+
 import ReadBlog from './../src/Views/ReadBlog/ReadBlog'
+
+
+import Showdonor from './Views/Showdonor/Showdonor';
 
 
 const router = createBrowserRouter([
@@ -36,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: "/bloodbank",
     element: <Bloodbank />,
+  },
+  {
+    path: "/showdonar/:bloodGroup",
+    element: < Showdonor/>,
   },
 ]);
 

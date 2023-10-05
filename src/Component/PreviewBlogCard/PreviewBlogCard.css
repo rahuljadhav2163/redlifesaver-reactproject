@@ -1,15 +1,31 @@
-.main-component{
-    display: block;
-   
-}
+
 .preview-blog-card{
-    border: 1px solid black;
-    margin: 10px;
+   border-radius: 20px;
+   
+   box-shadow: 0 1px 10px 2px black;
     height: 500px;
     width: 400px;
     padding-left:20px;
+    margin-top: 30px;
 }
 .donor-image{
-    margin-top: 40px;
+    margin-top: 20px;
     height: 200px;
+}
+.card-title{
+    text-align: center;
+    margin-top: 30px;
+}
+.card-text{
+    text-align: center;
+    margin-top: 40px;
+}
+.link{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+   width: fit-content;
+    text-decoration: none;
+ font-size: 20px;
 }
