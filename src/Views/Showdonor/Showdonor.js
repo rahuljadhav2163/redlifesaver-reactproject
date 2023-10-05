@@ -12,6 +12,8 @@ function Showdonor() {
   const filteredData = Donarrdata.filter((data)=>{
     return data.group === bloodGroup
   })
+
+
   
   return (
     <div>
@@ -25,6 +27,8 @@ function Showdonor() {
             <div> 
              <Card name={name} group={group} address={address} numbar={number} date={date}/>
             </div>
+
+          
           )
          })
       }

@@ -1,0 +1,18 @@
+.form-container{
+    height: 600px;
+    width: 400px;
+    box-shadow: 0 0 5px 3px #787777;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.titile{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+}
+.input-field{
+    padding: 10px 50px;
+    margin-left: 50px;
+}
