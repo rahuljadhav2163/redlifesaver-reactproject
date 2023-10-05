@@ -1,12 +1,14 @@
 import React from 'react'
 import "./Button.css"
+
+
+
 function Button({ text }) {
   return (
     <button className='btn-navbar'><i class="bi bi-person-plus-fill"></i> {text}
     </button>
   )
 }
-
 export default Button
 
 
@@ -19,12 +21,7 @@ export function Outbtn({ btnname }) {
   )
 }
 
-export function FindBlood({ named }) {
-  return (
-    <button className='btn-findblood'> {named}
-    </button>
-  )
-}
+
 
 export function SearchBtn({ search }) {
   return (
@@ -39,3 +36,4 @@ export function Cardbtn({ value }) {
     </button>
   )
 }
+

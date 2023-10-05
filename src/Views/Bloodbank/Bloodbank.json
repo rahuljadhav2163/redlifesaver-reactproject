@@ -1,9 +1,11 @@
 {
     "Maharashtra" : ["Pune","Mumbai","Nagpur","Sambhajinagr","Nashik"],
     "Uttar-Pradesh" : ["Varanasi","Agra","Lucknow","Gaziabad"],
-    "Bihar" : ["Patna","Arwal","Bhagalpur","Begusarai"],
+    "Bihar" : ["Patna","Arwal","Bhagalpur","Begusarai","Bhojpur"],
     "Punjab" : ["Amritsar","Jalandhar","Ludhiyana","Bathinda"]
-
+   
+        
+    
     
 }
 
