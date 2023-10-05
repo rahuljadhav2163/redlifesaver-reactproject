@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState , useEffect } from 'react';
 import './Donateus.css';
 
 function Donateus() {
@@ -8,26 +8,28 @@ function Donateus() {
     const [bloodGroup, setBloodGroup] = useState('Blood Group :');
     const [address, setAddress] = useState('');
     const [date, setDate] = useState('');
-    
+
     const handleSubmit = () => {
-          const donor = {
+        const existingData = JSON.parse(localStorage.getItem('donor')) || [];
+    
+        const newDonor = {
             name,
             mobile,
             bloodGroup,
             address,
             date,
         };
-
-        const donorData = JSON.stringify(donor);
-
-        localStorage.setItem('donor', donorData);
+        existingData.push(newDonor);
+    
+        localStorage.setItem('donor', JSON.stringify(existingData));
+    
         setName('');
         setMobile('');
         setBloodGroup('Blood Group :');
         setAddress('');
         setDate('');
-        console.log(donorData);
     };
+
 
     return (
         <div>
@@ -73,7 +75,7 @@ function Donateus() {
                     type="text"
                     placeholder="Address"
                     value={address}
-                    onChange={(e) => setAddress(e.target.value)}/>
+                    onChange={(e) => setAddress(e.target.value)} />
                 <br />
                 <br />
                 <input
@@ -81,7 +83,7 @@ function Donateus() {
                     type="date"
                     placeholder="Todays Date"
                     value={date}
-                    onChange={(e) => setDate(e.target.value)}/>
+                    onChange={(e) => setDate(e.target.value)} />
                 <br />
                 <br />
 

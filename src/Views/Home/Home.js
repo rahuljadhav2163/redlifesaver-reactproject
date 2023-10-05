@@ -21,12 +21,10 @@ function Home() {
   const [ddata, setddata] = useState(Donerdata);
   const [search, setSearch] = useState("");
 
-
   const findpage = () => {
     navigate(`/showdonar/${search}`);
   }
-
-
+  
   return (
     <div>
 
