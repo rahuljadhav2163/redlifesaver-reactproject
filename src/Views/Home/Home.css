@@ -97,8 +97,7 @@
 
 .card-home {
     height: 240px;
-    width: calc(50% - 20px); 
-    margin: 10px;
+    width: calc(50% - 0px); 
     margin-top: 0px;
     background-color:#e45d03;
 }
@@ -142,6 +141,71 @@
 }
 .btnnnn {
     margin: 0;
+}
+.count-line{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.homii{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.countcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.donateblood-img{
+    height: 300px;
+    margin: 80px;
+}
+.containrdonater{
+    display: flex;
+}
+.shoulddonate{
+    font-size: 30px;
+     margin-left: 30px;
+     margin-top: 80px;
+     font-weight: bold;
+}
+.should-text{
+    text-align: justify;
+    margin-right: 130px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.donar-find{
+    padding: 15px 34px;
+    border: none;
+    color: white;
+    background-color: #fc6a09;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+.donar-find:hover{
+    background-color: rgba(240, 248, 255, 0.306);
+    border: 2px solid #fc6a09;
+}
+.btn-bedonar{
+    font-size: 15px;
+    padding: 12px 32px;
+    border: 2px solid #bbb;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 30px;
+
+}
+.text-sponcer{
+    text-align: center;
+    font-size:40px ;
+}
+.sponser-container{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 

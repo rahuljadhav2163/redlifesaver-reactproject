@@ -3,6 +3,7 @@ import "./Navbar.css"
 import logo from "./img/redlifesaverlogo.png"
 import Button from './../Button/Button'
 import { Outbtn } from './../Button/Button'
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div>
@@ -17,13 +18,15 @@ function Navbar() {
       <div className='nav-item-container'>
 
         <p className='home-link'>
-          <span className=' link-tag'>HOME</span>
-          <span className='link-tag'>UPCOMING CAMPS</span>
-          <span className='link-tag'>BLOOD BANKS</span>
-          <span className='link-tag'>BLOG</span>
-          <span className='link-tag'>ABOUT US</span>
+          <span className=' link-tag'><Link className='decoration' to="/">HOME</Link></span>
+          <span className='link-tag'><Link className='decoration' to="/event">UPCOMING CAMPS</Link></span>
+          <span className='link-tag'><Link className='decoration' to="/bloodbank">BLOOD BANKS</Link></span>
+          <span className='link-tag'><Link className='decoration' to="/blog">BLOG</Link></span>
+          <span className='link-tag'><Link className='decoration' to="/about">ABOUT US</Link></span>
           <button className='danate-us'>DONATE US</button>
         </p>
+
+        
          
       </div>
 
@@ -31,5 +34,4 @@ function Navbar() {
     </div>
   )
 }
-
 export default Navbar
