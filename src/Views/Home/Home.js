@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import "./Home.css"
 import Navbar from "./../../Component/Navbar/Navbar"
+import Footer from '../../Component/Footer/Footer'
 import { Cardbtn, FindBlood } from './../../Component/Button/Button'
 import { Countcard } from '../../Component/Card/Card'
 import Datacount from "./Home.json"
@@ -11,6 +12,7 @@ import { Cardsponcer } from "./../../Component/Card/Card"
 import Showdonor from '../Showdonor/Showdonor'
 import Sponceimg from "./img/sponsorship.jpeg"
 import Simg from "./img/Sponsorship-2048x1452.jpeg"
+import {Cardtype} from "./../../Component/Card/Card"
 function Home() {
 
 
@@ -112,6 +114,11 @@ function Home() {
             })
           }
         </div>
+        <div className='cardddd-container'>
+          <Cardtype head="Blood Donation Camps" text="We collaborate with colleges, corporates, RWAs to organize innovative and engaging blood donation camps end to end." btnname="Organize Camp"/>
+          <Cardtype head="Handling Helpline" text="Through helpline requests, we help address immediate blood requirements by patients blood donation camps end to end." btnname="Find A Donor"/>
+          <Cardtype head="Awareness Session" text="Street plays, competitions, and sessions - targeted at inspiring people, especially the first timers, to come out and donate." btnname="Learn A More"/>
+          </div>
 
         <div className='containrdonater'>
           <img className='donateblood-img' src={Donateblood} />
@@ -122,7 +129,7 @@ function Home() {
 
           </div>
         </div>
-
+        
         <div>
           <p className='text-sponcer'>OUR SPONCER</p>
           <div className='sponser-container'>
@@ -138,12 +145,15 @@ function Home() {
 
           </div>
 
+         
+          
+
         </div>
+        <Footer/>
+
       </div>
-
+      
     </div>
-
-
   )
 }
 export default Home

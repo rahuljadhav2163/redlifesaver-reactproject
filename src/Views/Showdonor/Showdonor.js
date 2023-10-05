@@ -4,12 +4,13 @@ import Navbar from '../../Component/Navbar/Navbar';
 import { useParams } from 'react-router-dom';
 import Card  from "./../../Component/Card/Card"
 import "./Showdonor.css";
+import Footer from '../../Component/Footer/Footer';
 
 function Showdonor() {
   const { bloodGroup  } = useParams()
 
   const filteredData = Donarrdata.filter((data)=>{
-    return data.group == bloodGroup
+    return data.group === bloodGroup
   })
   
   return (
@@ -28,6 +29,7 @@ function Showdonor() {
          })
       }
       </div>
+      <Footer/>
     </div>
   )
 }

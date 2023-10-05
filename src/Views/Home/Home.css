@@ -207,6 +207,10 @@
     display: flex;
     justify-content: space-evenly;
 }
+.cardddd-container{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 @media (max-width: 768px) {
