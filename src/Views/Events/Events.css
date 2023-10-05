@@ -34,8 +34,8 @@ background-position: center;
 }
 .title-events{
     text-align: center;
-    color: blue;
-
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 .event{
@@ -55,11 +55,11 @@ background-position: center;
   
 }
 .city-name-high{
-    color: rgb(64, 0, 255);
+    color:rgb(1, 1, 63);
 }
 
 .city-title{
-    color: rgb(64, 0, 255);
+    color: rgb(1, 1, 63);
 }
 .description{
     font-size: 18px;
@@ -80,5 +80,23 @@ background-position: center;
 
 }
 .cityName:hover{
-    color: blue;
+    color: rgb(1, 1, 63);
+}
+
+.Event-main-container{
+    display: flex;
+    justify-content:space-around;
+}
+.eventCard{
+    border-radius: 20px;
+    height: 450px;
+    width: 380px;
+    box-shadow: 0 0 5px 5px lightgray;
+    
+    
+
+    
+}
+.title{
+    text-align: center;
 }

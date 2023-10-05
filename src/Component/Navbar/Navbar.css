@@ -7,7 +7,6 @@ display: flex;
 .nav-item-container{
     background-color: #fc6a09;
     height: 60px;
-    width: 100hh;
 }
 .logo{
     width: 250px;
@@ -33,10 +32,15 @@ display: flex;
     color: #aaaaaaa7;
 }
 .link-tag{
-    color: white;
     font-size: 16px;
     margin: 15px;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.decoration{
+    text-decoration: none;
+    color: white;
 }
 .home-link{
     margin: 0;

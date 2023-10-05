@@ -1,0 +1,40 @@
+
+.eventCard{
+    border-radius: 10px;
+    height: 530px;
+    width: 350px;
+    box-shadow: 0 0 5px 1px lightgray;
+    font-size: 19px;
+    padding: 10px;
+    text-align: left;
+
+
+}
+.title{
+    text-align: center;
+}
+.imgEvent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    height: 200px;
+    width: 340px;
+    margin-top: 5px;
+    border-radius: 10px;   
+}
+.button{
+    background-color: #fc6a09;
+    border: none;
+    border-radius: 10px;
+    font-size:22px;
+    padding: 10px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 160px;
+}
+.text{
+    height: 50px;
+}
