@@ -23,7 +23,7 @@ function Navbar() {
           <span className='link-tag'><Link className='decoration' to="/bloodbank">BLOOD BANKS</Link></span>
           <span className='link-tag'><Link className='decoration' to="/blog">BLOG</Link></span>
           <span className='link-tag'><Link className='decoration' to="/about">ABOUT US</Link></span>
-          <button className='danate-us'>DONATE US</button>
+          <button className='danate-us'><Link className='decoration' to="/donateus">DONATE US</Link></button>
         </p>
 
         

@@ -207,49 +207,9 @@
     display: flex;
     justify-content: space-evenly;
 }
-
-
-@media (max-width: 768px) {
-    .homeform-container {
-        width: 100%; 
-        margin: 20px; 
-    }
-
-    
-    .cirlefirst {
-        height: 150px;
-        width: 150px;
-        margin-left: 20px;
-    }
-
-
-    .drop-blood {
-        font-size: 40px;
-        padding-left: 30px;
-        padding-top: 5px;
-    }
-
-    .blood-bonor-text {
-        font-size: 20px;
-        margin-left: 20px;
-    }
-
-    .selectgroup,
-    .state {
-        width: 100%; 
-        margin: 10px 0; 
-    }
-
-   
-
-    .card-homee {
-        width: 100%; 
-    }
-
-    .name-danation,
-    .rupees,
-    .danate-line,
-    .flag {
-        text-align: center; 
-    }
+.cardddd-container{
+    display: flex;
+    justify-content: space-evenly;
 }
+
+

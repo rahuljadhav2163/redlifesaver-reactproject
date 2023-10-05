@@ -1,8 +1,11 @@
 import React from 'react'
 import "./About.css"
+import Navbar from '../../Component/Navbar/Navbar'
 function About() {
   return (
-    <div className='about'>About</div>
+    <div className='about'>
+            <Navbar/>
+    </div>
   )
 }
 
