@@ -12,7 +12,7 @@ function PreviewBlogCard({id, title, date,image}){
     <h1 className='card-title'>{title}</h1>
     
     <h2 className='card-text'> {date}</h2>
-    <Link to={`/blog ${id}`}>Read More</Link>
+    <Link to={`/blog/read/${id}`}>Read More</Link>
     </div>
     </div>
     )

@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Blog from "./../Blog/blog.json"
+import "./ReadBlog.css"
 
 function ReadBlog(){
-    const {id}=useParams({title, description})
+    const {id}=useParams({})
 
 const [post, setPost]=useState({})
 
