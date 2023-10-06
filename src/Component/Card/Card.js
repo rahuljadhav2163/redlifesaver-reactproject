@@ -62,3 +62,15 @@ export  function Cardtype({head,text,btnname}) {
     </div>
   )
 }
+export function StepCard({steps,follorulls}) {
+  return (
+    <div>
+
+      <div className="StepsCard">
+          <h3 className="stepcard-title">{steps}</h3>
+          <p className="stepcard-descriptions">{follorulls}</p><hr/>
+        
+      </div>
+    </div>
+  )
+}
