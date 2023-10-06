@@ -10,7 +10,13 @@
 .list-item-find{
     padding: 14px;
     width: 300px;
-    margin-left: 10px;
+    margin-left: 40px;
     border-radius: 5px;
     font-size: 17px;
+ 
+
+}
+.review{
+    text-align: center;
+    margin-top: 200px;
 }

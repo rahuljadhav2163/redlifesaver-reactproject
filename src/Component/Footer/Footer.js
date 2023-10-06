@@ -13,7 +13,7 @@ function Footer() {
           <p> <Link to="/" className='text-decoration'>Home</Link></p>
           <p><Link to="/event" className='text-decoration'>Upcoming Campus</Link></p>
           <p><Link to="/bloodbank" className='text-decoration'>Bloodbank</Link></p>
-          <p><Link to="blog" className='text-decoration'>Blog</Link></p>
+          <p><Link to="/Blog" className='text-decoration'>Blog</Link></p>
         </div>
         <div>
           <h2>contact Info</h2>
