@@ -1,0 +1,202 @@
+[
+    {
+        "name": " 1. Sahyadri Super Speciality Hospital",
+        "address": "Addss: Plot No. 30-C, Erandawane, Karve Road, Pune - 411004",
+        "city": "Pune",
+        "location": "https://www.google.com/maps/dir//Wohakard+Hopital,+Wani+house,+Canada+Corner,+Nashik,+Maharashtra+422005/@20.009879,73.746078,11.53z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bddebbfed7b615b:0x560f4c04bc0a0868!2m2!1d73.7723729!2d20.00262?entry=ttu' ",
+        "contact": " Contact : +91-20-67213000",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipMYTddGrrh_gkKGsilTYH5qu2rnA_Xdi5Pw0Mxe=w408-h274-k-no"
+    },
+    {
+        "name": " 2. Deenanath Mangeshkar Hospital",
+        "address": "Address: Erandwane, Pune - 411004",
+        "city": "Pune",
+        "location": "https://www.google.com/maps/place/Deenanath+Mangeshkar+Hospital+and+Research+Center/@18.5020518,73.8296556,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2bff340000001:0x89785750a9af6cf7!8m2!3d18.5020467!4d73.8322305!16s%2Fm%2F0vpl979?entry=ttu",
+        "contact": "Contact: +91-20-40151000",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipNPvNzY5C7oOGEMXZYKGEdHTK4YFQpZu6fuW5k=w408-h544-k-no"
+    },
+    {
+        "name": " 3 .KEM Hospital (King Edward Memorial Hospital)",
+        "address": "Address: Rasta Peth, Sardar Moodliar Road, Pune - 411011",
+        "city": "Pune",
+        "location": "",
+        "contact": " Contact: +91-20-66037300",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipOLTkt0jQQbWS8mCUD9VGzUvB1jG80jYniR3snI=w408-h306-k-no"
+    },
+    {
+        "name": " 4. Aditya Birla Memorial Hospital",
+        "address": "Address: Aditya Birla Hospital Marg, Pimpri-Chinchwad, Pune - 411033",
+        "city": "Pune",
+        "location": "",
+        "contact": " Contact : +91-20-67213000",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipOXoThiQ7j4R5hIJvT21u9gEox_dop3HnfjUcAA=w408-h408-k-no"
+    },
+    {
+        "name": " 5. Ruby Hall Clinic",
+        "address": "Address: 40, Sassoon Road, Pune - 411001",
+        "city": "Pune",
+        "location": "",
+        "contact": " Contact: +91-20-26123391",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipORVBekU66zMZJ1jZWn58VdRMBXCGh-O8n68ZGn=w408-h816-k-no"
+    },
+    {
+        "name": " 1. Government Medical College & Hospital (GMCH)",
+        "address": "Address: Medical Square, Hanuman Nagar, Nagpur - 440009",
+        "city": "Nagpur",
+        "location": "",
+        "contact": " Contact: +91-712-2701641",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipOf43mAv_uOe0SVMRpcMYO4GiS3-U2WcNnusmWa=w408-h544-k-no"
+    },
+    {
+        "name": "2. Indira Gandhi Government Medical College & Hospital (IGGMC):",
+        "address": "Address: Mayo Hospital Road, Central Avenue, Nagpur - 440018",
+        "city": "Nagpur",
+        "location": "",
+        "contact": " Contact: +91-712-2701642",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipMjqgewgpg7TkANUi021bCxOANUPIKeg64g7xbN=w408-h306-k-no"
+    },
+    {
+        "name": " 3. Acharya Vinoba Bhave Rural Hospital (AVBRH)",
+        "address": "Address: Sawangi (Meghe), Wardha, Nagpur - 442004",
+        "city": "Nagpur",
+        "location": "",
+        "contact": "Contact: +91-711-2774915",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipPtdqAJQ1FF6-Zv-tJWDmQ74KuTQpWGuhbAHvjW=w408-h271-k-no"
+    },
+    {
+        "name": " 4.Daga Memorial Government Hospital:",
+        "address": "Address: Nandanvan, Nagpur - 440009",
+        "city": "Nagpur",
+        "location": "",
+        "contact": " Contact: +91-712-2714144",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipP9dvDlb2eykab-8kv9KFdsA25txe4ExbORSt_P=w408-h306-k-no"
+    },
+    {
+        "name": " Orange City Hospital & Research Institute:",
+        "address": "Address: 19, Pandey Layout, Veer Sawarkar Square, Dharmpeth, Nagpur - 440010",
+        "city": "Nagpur",
+        "location": "",
+        "contact": "Contact: +91-712-6634800",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipP7zo3BEnbTif1N_7H-SYaJIt4pYn9iCijoRpIA=w426-h240-k-no"
+    },
+    {
+        "name": "1. Tata Memorial Hospital:",
+        "address": "Address: Dr. E Borges Road, Parel, Mumbai - 400012",
+        "city": "Mumbai",
+        "location": "",
+        "contact": "Contact: +91-22-24177000",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipMnDQFL-d0Ycbbimp718BRKTqls0Yt4w1u-juzN=w431-h240-k-no"
+    },
+    {
+        "name": "2.Jaslok Hospital and Research Centre:",
+        "address": "Address: 15 - Dr. G Deshmukh Marg, Pedder Road, Mumbai - 400026",
+        "city": "Mumbai",
+        "location": "",
+        "contact": "Contact: +91-22-66573333",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipPRRHGmafUaaMe2fOzxbDwqDEPD_9QkdjXwe49R=w408-h306-k-no"
+    },
+    {
+        "name": " 3.  Lilavati Hospital and Research Centre:",
+        "address": "Address: A - 791, Bandra Reclamation, Bandra (W), Mumbai - 400050",
+        "city": "Mumbai",
+        "location": "",
+        "contact": "Contact: +91-22-26751000",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipP1jauv9_aB8TokK974llL0G1PHLG6KuB709hel=w408-h306-k-no"
+    },
+    {
+        "name": " 4. KEM Hospital (King Edward Memorial Hospital):",
+        "address": "Address: Acharya Donde Marg, Parel, Mumbai - 400012",
+        "city": "Mumbai",
+        "location": "",
+        "contact": "Contact: +91-22-24107000",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipNKiMZpkV9cRmoqXdw73XUAO3bmjg1NBmiEf0u_=w408-h306-k-no"
+    },
+    {
+        "name": "Nanavati Super Speciality Hospital:",
+        "address": "Address: S. V. Road, Vile Parle (W), Mumbai - 400056",
+        "city": "Mumbai",
+        "location": "",
+        "contact": "Contact: +91-22-26267500",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipNgk-igQfo8bB7BJXGYvlZXtUVeJoSstCsn4s4w=w637-h240-k-no"
+    },
+    {
+        "name": "1. Government Medical College & Hospital (GMCH):",
+        "address": "Address: Ghati Hospital Campus, Panchakki Road, Aurangabad - 431001",
+        "city": "Sambhajinagr",
+        "location": "",
+        "contact": "Contact: +91-240-2402412",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipPQm5GFbR60wP39FPII3v1pZiI2Kv-WSnb2JSZm=w408-h306-k-no"
+    },
+    {
+        "name": " 2. MGM Medical College & Hospital",
+        "address": "Address: N-6, Cidco, Aurangabad - 431003",
+        "city": "Sambhajinagr",
+        "location": "",
+        "contact": "Contact: +91-240-6601100",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipOsCV4IymXTgtHtZG7WY4gNzxj4RJyL-KTVt60R=w426-h240-k-no"
+    },
+    {
+        "name": "3. KAMALNAYAN BAJAJ HOSPITAL:",
+        "address": "Address: CIDCO, Aurangabad - 431003 ",
+        "city": "Sambhajinagr",
+        "location": "",
+        "contact": "Contact: +91-240-2485333",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipPqOX-A993w-vEtUxvEGyotdUNdqJBwpNe5uZ-9=w427-h240-k-no"
+    },
+    {
+        "name": "4. Yashoda Maternity Hospital and Blood Bank:",
+        "address": "Address: Near D-Mart, Nirala Bazaar, Aurangabad - 431001",
+        "city": "Sambhajinagr",
+        "location": "",
+        "contact": "Contact: +91-240-2331672",
+        "imgURL": "https://lh3.googleusercontent.com/gps-proxy/AFm_dcT8gBB-uvFK0XOYOi-3WL0talFcNeiZ4EiX4W2ptxrPiYx2Zk2aiBYwnQ7dMX9DUZe8aGJg0HdijqjtTGeD4ERANRL6pV2Ic5Msr3zAsK96zOzBmX-Cr2N21SlIoyYdlGHNonurmxPfsOeGok5-R_y6btFMpPkw5HfMaoDicT88Ha2DOKQSKnDoKTZ9qg6YIhsTzK4=w426-h240-k-no"
+    },
+    {
+        "name": " 5. Rushabh Hospital:",
+        "address": "Address: Jalna Road, Aurangabad - 431001",
+        "city": "Sambhajinagr",
+        "location": "",
+        "contact": "Contact: +91-240-2248500",
+        "imgURL": ""
+    },
+    {
+        "name": " 1. CIVIL HOSPITAL:",
+        "address": "Address: Trimbak Road, Nashik - 422001",
+        "city": "Nashik",
+        "location": "",
+        "contact": "Contact: +91-253-2571166",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipM4FwCtTu1vYwali3GmQHZ42CETdqUvU4VjABCS=w426-h240-k-no"
+    },
+    {
+        "name": " 2. Wockhardt Hospital:",
+        "address": "Wani house, Canada Corner, Nashik, Maharashtra 422005",
+        "city": "Nashik",
+        "location": "",
+        "contact": "",
+        "imgURL": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=V5cqWCjaqHVIyrcxJu_lUQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=37.287617&pitch=0&thumbfov=100"
+    },
+    {
+        "name": "3.Wockhardt Hospitals, Nashik:",
+        "city": "Nashik",
+        "location": "",
+        "address": "Address: 929, Mumbai-Agra Highway, Nashik - 422009",
+        "contact": "Contact: +91-253-6694444",
+        "imgURL": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=131ezWRQXiLgsgn8gV8QAg&cb_client=search.gws-prod.gps&w=408&h=240&yaw=266.65546&pitch=0&thumbfov=100"
+    },
+    {
+        "name": "4. Nashik Medical College & Hospital:",
+        "address": "Address: Mumbai-Agra Road, Adgaon, Nashik - 422003",
+        "city": "Nashik",
+        "location": "",
+        "contact": "Contact: +91-253-2303100",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipPlUuoFFVxgVQXI2csloT2iWF8sXRPsCMilOMnN=w426-h240-k-no"
+    },
+    {
+        "name": "5. Sahyadri Speciality Hospital:",
+        "address": "Address: Plot No. C /S/5, Opp. Ginger Hotel, Mumbai Agra Road, Nashik - 422011",
+        "city": "Nashik",
+        "location": "",
+        "contact": "Contact: +91-253-6691300",
+        "imgURL": "https://lh5.googleusercontent.com/p/AF1QipMA4KYCpWEG0LYqwxMYXBBt4sIc7VAvOOSMiP_5=w408-h306-k-no"
+    }
+]
