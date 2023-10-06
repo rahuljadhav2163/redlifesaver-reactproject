@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import './Sign-Up.css';
+import Navbar from './../../Component/Navbar/Navbar';
+import Footer from "../../Component/Footer/Footer";
 
 
 export default function SignUp() {
@@ -31,45 +33,51 @@ export default function SignUp() {
 
     return (
         <>
+            <Navbar/>
             <form>
                 <div className="form-container">
                     <div>
-                        <img src="https://i.pinimg.com/564x/3c/20/a1/3c20a16bccae26d05a27243f9259b86e.jpg"/>
+                        <img src="https://i.pinimg.com/564x/3c/20/a1/3c20a16bccae26d05a27243f9259b86e.jpg" className="img-signup"/>
                     </div>
                     <div>
-                        <h1>Sign Up</h1>
-                        Name: <input type="text"
+                        <h1 className="title-signup">Sign Up</h1>
+                    <span className="text-name">Name: </span> <input type="text"
                             placeholder="name"
                             onChange={(e) => {
                                 setName(e.target.value)
                             }}
-                            value={name} /><br />
+                            value={name} 
+                            className="input-box"/><br />
 
-                        Mobile: <input type="text"
+                       <span className="text-mobile"> Mobile: </span> <input type="text"
                             placeholder="Mobile number"
                             onChange={(e) => {
                                 setMobile(e.target.value)
                             }}
-                            value={mobile} /><br />
+                            value={mobile} 
+                            className="input-box"/><br />
 
-                        Email: <input type="mail"
+                       <span className="text-mail">Email: </span> <input type="mail"
                             placeholder="email"
                             onChange={(e) => {
                                 setEmail(e.target.value)
                             }}
-                            value={email} /><br />
+                            value={email} 
+                            className="input-box"/><br />
 
-                        Password: <input type="password"
+                        <span className="text-pass">Password: </span> <input type="password"
                             placeholder="password"
                             onChange={(e) => {
                                 setPassword(e.target.value)
                             }}
                             value={password}
+                            className="input-box"
                         />
-                        <button type="button" className="submit-btn" onClick={handleCheck}>Submit</button>
+                        <button type="button" className="submit-btn" onClick={handleCheck}>Sign Up</button>
                     </div>
                 </div>
             </form>
+            <Footer/>
         </>
     )
 }
