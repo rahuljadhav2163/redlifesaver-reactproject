@@ -15,24 +15,23 @@ import CityEventPage from './Views/Events/CityEventPage/CityEventPage';
 
 
 import Showdonor from './Views/Showdonor/Showdonor';
-import Donateus from './Views/Donateus/Donateus';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Home/>,
   },
   {
     path: "/about",
-    element: <About />,
+    element: <About/>,
   },
   {
     path: "/blog",
-    element: <Blog />,
+    element: <Blog/>,
   },
   {
     path: "/event",
-    element: <Events />,
+    element: <Events/>,
   },
   {
     path: "/bloodbank",
@@ -42,12 +41,14 @@ const router = createBrowserRouter([
 
     path: "event/cityeventpage",
     element: <CityEventPage />,
-
+  },
+  {
     path: "/showdonar/:bloodGroup",
-    element: < Showdonor/>,
-
+    element: <Showdonor/>,
+  },
+  {
     path:"/signup",
-    element: <SignUp/>
+    element: <SignUp/>,
   },
 ]);
 
