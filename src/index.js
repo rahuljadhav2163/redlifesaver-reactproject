@@ -12,7 +12,7 @@ import Home from './Views/Home/Home';
 import SignUp from "./Views/SignUp/SignUp"
 import ReadBlog from './../src/Views/ReadBlog/ReadBlog'
 import CityEventPage from "./Views/Events/CityEventPage/CityEventPage"
-
+import DonateUs from "./Views/Donateus/Donateus"
 import Showdonor from './Views/Showdonor/Showdonor';
 
 
@@ -53,6 +53,10 @@ const router = createBrowserRouter([
   {
     path:"/signup",
     element: <SignUp/>,
+  },
+  {
+    path:"/donateus",
+    element: <DonateUs/>,
   },
 ]);
 
