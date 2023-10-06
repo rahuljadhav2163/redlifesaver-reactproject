@@ -1,7 +1,12 @@
 .blog{
     text-align: center;
+    font-size: 60px;
+    color: red;
 }
 .blog-container{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
 }
