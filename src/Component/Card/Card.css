@@ -155,3 +155,28 @@
 .stepcard-title{
     color: #fc6a09;
 }
+.facility-container{
+  
+    padding: 20px;
+}
+.facility{
+    display: flex;
+   margin: 20px;
+}
+.facilitycard-title{
+    margin-left: 20px;
+}
+.facilitycard-description{
+    margin-left: 20px;
+}
+.faciBtn{
+    margin-left: 20px;
+    padding: 5px;
+    background-color: rgb(173, 171, 171);
+    border-radius: 2px;
+}
+.faciBtn:hover{
+    background-color: #f0d8c9;
+    transition: 0.5s;
+    cursor: pointer;
+}

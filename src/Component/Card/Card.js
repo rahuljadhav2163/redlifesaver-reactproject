@@ -1,6 +1,8 @@
 import React from "react";
 import "./Card.css";
 import Cardimg from "./cardimggg.png";
+import { Link } from "react-router-dom";
+
 
 export  const Countcard = (props) => {
   const {number , group} = props;
@@ -69,8 +71,27 @@ export function StepCard({steps,follorulls}) {
       <div className="StepsCard">
           <h3 className="stepcard-title">{steps}</h3>
           <p className="stepcard-descriptions">{follorulls}</p><hr/>
+
         
       </div>
     </div>
   )
 }
+export function FacilityCard({title,discription,faciBtn,img}){
+  return(
+    <div className="facility-container">
+      <div className="facilityCard">
+        <div className="facility">
+     <div><img src={img}/></div>
+     <div>
+      <h3 className="facilitycard-title">{title}</h3>
+      <p className="facilitycard-description">{discription}</p>
+     <button className="faciBtn">{faciBtn}</button>
+      </div>
+      </div>
+      </div>
+     
+    </div>
+  )
+}
+
