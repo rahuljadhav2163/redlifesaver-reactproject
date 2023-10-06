@@ -16,7 +16,7 @@ import {Cardtype} from "./../../Component/Card/Card"
 function Home() {
 
 
-  const [bloodcount, setBloodCount] = useState(Datacount);
+  const [bloodcount, setBloodCount] = useState(Datacount)
   const navigate = useNavigate();
   const [ddata, setddata] = useState(Donerdata);
   const [search, setSearch] = useState("");

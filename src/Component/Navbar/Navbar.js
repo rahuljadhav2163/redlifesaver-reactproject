@@ -12,7 +12,7 @@ function Navbar() {
 
         <span className='call-icon'><i class="bi bi-telephone-forward"></i></span>
         <p className='mob-no'>+91 7057461164<p className='our-tean'>Red Life Saver Team</p></p>
-        <Button text='Register' />
+       <Link to="/signup"> <Button text='Register' /></Link>
         <Outbtn btnname="Login" />
       </div>
       <div className='nav-item-container'>

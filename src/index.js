@@ -9,37 +9,46 @@ import Blog from "./Views/Blog/Blog";
 import Bloodbank  from './Views/Bloodbank/Bloodbank';
 import Events from './Views/Events/Events';
 import Home from './Views/Home/Home';
+import SignUp from './Views/SignUp/SignUp'
+
+import CityEventPage from './Views/Events/CityEventPage/CityEventPage';
+
+
 import Showdonor from './Views/Showdonor/Showdonor';
-import Donateus from './Views/Donateus/Donateus';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Home/>,
   },
   {
     path: "/about",
-    element: <About />,
+    element: <About/>,
   },
   {
     path: "/blog",
-    element: <Blog />,
+    element: <Blog/>,
   },
   {
     path: "/event",
-    element: <Events />,
+    element: <Events/>,
   },
   {
     path: "/bloodbank",
     element: <Bloodbank />,
   },
   {
-    path: "/donateus",
-    element: <Donateus />,
+
+    path: "event/cityeventpage",
+    element: <CityEventPage />,
   },
   {
     path: "/showdonar/:bloodGroup",
-    element: < Showdonor/>,
+    element: <Showdonor/>,
+  },
+  {
+    path:"/signup",
+    element: <SignUp/>,
   },
 ]);
 
