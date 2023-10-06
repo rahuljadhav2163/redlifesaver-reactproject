@@ -23,14 +23,14 @@ function Events() {
       <h1 className='title-events'>EVENTS OF MAHARASHTRA STATE BRANCH DISTRICT</h1>
 
       <div className='Event-main-container'>
-        <UpcomingECard title={"Mega Blood Donation Camp"} ImgEvent={MegaImg} date={'15-10-2023'} description={'Konkan Medical TrustS Sahyadri Speaciality HBC'} Address={'Viman Nagar,Pune, Pune'} contact={8552962619} time={'10:00-15:00'}/>
+        <UpcomingECard title={"Mega Blood Donation Camp"} ImgEvent={MegaImg} date={'15-10-2023'} description={'Konkan Medical TrustS Sahyadri Speaciality HBC'} Address={'Viman Nagar,Pune, Pune'} contact={8552962619} time={'10:00-15:00'} />
 
-        <UpcomingECard title={"Blood Donation Camp"} ImgEvent={SevaImg} date={'25-10-2023'} description={'Pimpri Chinchwad Municipal CorporationS YCM HBC'} Address={'Link Road Thergaon,Pune, Pune'} contact={	8788598953} time={'09:00-15:00'}/>
+        <UpcomingECard title={"Blood Donation Camp"} ImgEvent={SevaImg} date={'25-10-2023'} description={'Pimpri Chinchwad Municipal CorporationS YCM HBC'} Address={'Link Road Thergaon,Pune, Pune'} contact={8788598953} time={'09:00-15:00'} />
 
-        <UpcomingECard title={"Seva Pakhawada"} ImgEvent={ImgBlood} date={'20-10-2023'} description={'Ashtavinayak Hospital Blood Bank text'} Address={'Aalephata,Junner, Pune'} contact={	8788598953} time={'10:00-13:00'}/>
-        
+        <UpcomingECard title={"Seva Pakhawada"} ImgEvent={ImgBlood} date={'20-10-2023'} description={'Ashtavinayak Hospital Blood Bank text'} Address={'Aalephata,Junner, Pune'} contact={8788598953} time={'10:00-13:00'} />
+
       </div>
-     
+
 
 
       <div className='event-city-container'>
@@ -41,8 +41,6 @@ function Events() {
           <Link to="/event/cityeventpage"> <h2 className='cityName'>Nagpur</h2></Link>
           <Link to="/event/cityeventpage"><h2 className='cityName'>Dhule</h2></Link>
           <Link to="/event/cityeventpage"><h2 className='cityName'>Mumbai</h2></Link>
-
-
 
         </div>
 
@@ -60,7 +58,7 @@ function Events() {
                   <div>
                     <img src={imgEvent} height={190} width={230} />
 
-                  </div>/
+                  </div>
                   <div className='title-description'>
                     <h3>{title} <span className='btn-new'>{button}</span></h3>
                     <b>{date}</b>
@@ -75,8 +73,8 @@ function Events() {
             }
 
             )
-          },
-         
+          }
+
         </div>
       </div>
 

@@ -12,7 +12,7 @@ function Navbar() {
 
         <span className='call-icon'><i class="bi bi-telephone-forward"></i></span>
         <p className='mob-no'>+91 7057461164<p className='our-tean'>Red Life Saver Team</p></p>
-        <Button text='Register' />
+       <Link to="/signup"> <Button text='Register' /></Link>
         <Outbtn btnname="Login" />
       </div>
       <div className='nav-item-container'>
@@ -23,7 +23,7 @@ function Navbar() {
           <span className='link-tag'><Link className='decoration' to="/bloodbank">BLOOD BANKS</Link></span>
           <span className='link-tag'><Link className='decoration' to="/blog">BLOG</Link></span>
           <span className='link-tag'><Link className='decoration' to="/about">ABOUT US</Link></span>
-          <button className='danate-us'>DONATE US</button>
+          <button className='danate-us'><Link className='decoration' to="/donateus">DONATE US</Link></button>
         </p>
 
         
