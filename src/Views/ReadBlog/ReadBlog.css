@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .blood-blog-image{
     width: 1500px;
     height: 650px;
