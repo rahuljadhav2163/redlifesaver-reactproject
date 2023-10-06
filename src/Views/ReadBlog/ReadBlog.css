@@ -3,14 +3,12 @@ body{
     padding: 0;
 }
 .blood-blog-image{
-    width: 1500px;
-    height: 650px;
+    width: 700px;
+    height: 400px;
     margin-top: 20px;
-   border-radius: 10px;
-   background: linear-gradient(black);
+    margin-left: 40px;
+ box-shadow: 0 1px 10px 2px black;
 }
-
-
 .blood-blog-title{
     text-align: center;
     font-size: 50px;
@@ -34,3 +32,22 @@ body{
 .blood-blog-container{
   margin-top: 3px;
   }
+.img-desc-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
+.image-container{
+    margin-left: 50px;
+}
+.blood-blog-des-container{
+    height: 150px;
+    width: 550px;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+.title-desc-container{
+    width: 1300px;
+    margin-left: 100px;
+}
