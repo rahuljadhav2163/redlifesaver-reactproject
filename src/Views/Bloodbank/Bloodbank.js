@@ -4,8 +4,10 @@ import Navbar from '../../Component/Navbar/Navbar';
 import { SearchBtn } from './../../Component/Button/Button';
 import Bloodbank from './Bloodbank.json';
 import Footer from '../../Component/Footer/Footer';
-import Showdonor from '../Showdonor/Showdonor';
+
 import { Link } from 'react-router-dom';
+import showdata from "./../Showhospitalname/Showhospitalname.json"
+import Hospitalcard from '../../Component/Hospitalcard/Hospitalcard';
 
 
 function Bloodbanks() {
@@ -20,6 +22,12 @@ function Bloodbanks() {
     setSelectedDistrict(event.target.value);
 
   };
+
+  const filterhospital = showdata.filter((hospital)=>{
+    return hospital.city === `${selectedDistrict}`
+  })
+
+
   const districts = selectedState ? Bloodbank[selectedState] : [];
   return (
     <div className='bloodbank'>
@@ -51,8 +59,27 @@ function Bloodbanks() {
         <div>
         </div>
         <div>
-       <SearchBtn search="Search" />
+       <SearchBtn search="Search"  />
         </div>
+        <div>
+    
+        </div>
+   
+      </div>
+      
+      <div className='hospital-div'>
+      {
+         filterhospital.map((hospital, index) => {
+            const { name, address, city, location ,contact,imgURL} = hospital;
+            return (
+              <div>
+                <Hospitalcard name={name}  address={address} city={city} location={location} contact={contact} imgURL={imgURL} />
+              </div>
+
+
+            )
+          })
+        }
       </div>
     <h1 className='review'><Link to="/">Review</Link></h1>
       <Footer />

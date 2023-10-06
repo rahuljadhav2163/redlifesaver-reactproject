@@ -13,7 +13,6 @@ export  const Countcard = (props) => {
   );
 };
 
-
 function Card({name,address,date,numbar,group}) {
   return (
     <div className="blood-grp-container">
@@ -39,8 +38,6 @@ function Card({name,address,date,numbar,group}) {
 
 export default Card
 
-
-
 export function Cardsponcer({title,text,img,name,slogen}) {
   return (
     <div>
@@ -55,8 +52,6 @@ export function Cardsponcer({title,text,img,name,slogen}) {
     </div>
   )
 }
-
-
 
 export  function Cardtype({head,text,btnname}) {
   return (
