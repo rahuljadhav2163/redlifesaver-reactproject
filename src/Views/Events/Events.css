@@ -7,10 +7,10 @@
 }
 .image-back{
 
-background-image: url("https://www.jainuniversity.ac.in/uploads/blog/55e8765cf014adb0449c690a1c393cc7.jpg");
+background-image: url("https://previews.123rf.com/images/giantsweet/giantsweet2003/giantsweet200300004/141967655-blood-donation-design-creative-donor-poster-blood-donor-banner-red-drop-donation-volunteer-blood.jpg");
 background-repeat: no-repeat;
- background-size: cover;
- height: 500px;
+background-size: cover;
+height: 500px;
 
 background-position: center;
 
@@ -26,8 +26,8 @@ background-position: center;
 
     height: 300px;
     width: 1300px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 100px; 
+    margin-left: 100px; 
     margin-bottom: 50px;
 
 
@@ -42,7 +42,9 @@ background-position: center;
     margin-left: 150px;
 }
 .activity{
-    display: flex;
+   display: flex;
+  
+
 }
 .title-description{
     display: flex;
@@ -100,3 +102,22 @@ background-position: center;
 .title{
     text-align: center;
 }
+.main-container-event{
+    display: flex;
+    flex-direction: column;
+}
+.city-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.upcoming-camp{
+    text-align: center;
+    color: rgb(251, 46, 5);
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+
+}
+
