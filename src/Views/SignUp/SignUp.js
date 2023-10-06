@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './Sign-Up.css';
+import  showToast  from 'crunchy-toast';
 
 export default function SignUp() {
     const [name, setName] = useState('');
@@ -8,18 +9,16 @@ export default function SignUp() {
     const [password, setPassword] = useState('');
 
     function handleCheck() {
-        
         const user = {
             name,
             mobile,
             email,
             password,
         };
-
         
         localStorage.setItem("user", JSON.stringify(user));
 
-        alert("Sign up successfully");
+        showToast('Sign Up Succesfully', 'success', 3000);
 
         
         setEmail('');
