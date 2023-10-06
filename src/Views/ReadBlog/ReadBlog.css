@@ -1,0 +1,32 @@
+.blood-blog-image{
+    width: 1500px;
+    height: 650px;
+    margin-top: 20px;
+   border-radius: 10px;
+   background: linear-gradient(black);
+}
+
+
+.blood-blog-title{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    padding-top: 40px;
+    color:black;
+  
+}
+.blood-blog-titles{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 10px;
+    padding-top: 40px;
+    color: red;
+   
+  
+}
+.blood-blog-description{
+    font-size: 22px;
+   }
+.blood-blog-container{
+  margin-top: 3px;
+  }
