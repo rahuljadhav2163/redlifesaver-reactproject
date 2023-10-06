@@ -14,7 +14,7 @@ import ReadBlog from './../src/Views/ReadBlog/ReadBlog'
 import CityEventPage from "./Views/Events/CityEventPage/CityEventPage"
 import DonateUs from "./Views/Donateus/Donateus"
 import Showdonor from './Views/Showdonor/Showdonor';
-
+import Login from "./Views/Login/Login"
 
 const router = createBrowserRouter([
   {
@@ -24,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <About/>,
+  },
+  {
+    path: "/login",
+    element: <Login/>,
   },
   {
     path: "/blog",
