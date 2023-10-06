@@ -2,10 +2,11 @@
     width: 1500px;
     height: 650px;
     margin-top: 20px;
-   
-    border-radius: 10px;
-    
+   border-radius: 10px;
+   background: linear-gradient(black);
 }
+
+
 .blood-blog-title{
     text-align: center;
     font-size: 50px;

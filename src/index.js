@@ -9,9 +9,9 @@ import Blog from "./Views/Blog/Blog";
 import Bloodbank  from './Views/Bloodbank/Bloodbank';
 import Events from './Views/Events/Events';
 import Home from './Views/Home/Home';
-
+import SignUp from "./Views/SignUp/SignUp"
 import ReadBlog from './../src/Views/ReadBlog/ReadBlog'
-
+import CityEventPage from "./Views/Events/CityEventPage/CityEventPage"
 
 import Showdonor from './Views/Showdonor/Showdonor';
 
@@ -19,15 +19,15 @@ import Showdonor from './Views/Showdonor/Showdonor';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Home/>,
   },
   {
     path: "/about",
-    element: <About />,
+    element: <About/>,
   },
   {
     path: "/blog",
-    element: <Blog />,
+    element: <Blog/>,
   },
   {
     path:"/blog/read/:id",
@@ -35,15 +35,24 @@ const router = createBrowserRouter([
   },
   {
     path: "/event",
-    element: <Events />,
+    element: <Events/>,
   },
   {
     path: "/bloodbank",
     element: <Bloodbank />,
   },
   {
+
+    path: "event/cityeventpage",
+    element: <CityEventPage />,
+  },
+  {
     path: "/showdonar/:bloodGroup",
-    element: < Showdonor/>,
+    element: <Showdonor/>,
+  },
+  {
+    path:"/signup",
+    element: <SignUp/>,
   },
 ]);
 

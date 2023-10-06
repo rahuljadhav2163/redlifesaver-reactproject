@@ -83,7 +83,6 @@
     height: 420px;
     width: 350px;
     box-shadow: 0 0 3px 0.5px black;
-    margin-bottom: 50px;
     border-radius: 5px;
     position: relative;
 }
@@ -117,4 +116,31 @@
 }
 .sponce-slogen{
     margin-left: 20px;
+}
+.carddd-container{
+    height: 260px;
+    width: 290px;
+    box-shadow: 0 0 5px 0.5px orangered;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+.heading-card{
+    text-align: center;
+    padding-top: 20px;
+}
+.text-card{
+    font-size: 20px;
+    text-align: justify;
+    padding: 12px;
+}
+.btn-card-btn{
+    padding: 10px 15px;
+    font-size: 18px;
+    margin-left: 75px;
+    border: none;
+    border-radius: 30px;
+    margin-top: -15px;
+    background-color: #fc6a09;
+    color: white;
 }
