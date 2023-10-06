@@ -9,12 +9,12 @@ import Blog from "./Views/Blog/Blog";
 import Bloodbank  from './Views/Bloodbank/Bloodbank';
 import Events from './Views/Events/Events';
 import Home from './Views/Home/Home';
-import SignUp from './Views/SignUp/SignUp'
-
-import CityEventPage from './Views/Events/CityEventPage/CityEventPage';
-
+import SignUp from "./Views/SignUp/SignUp"
+import ReadBlog from './../src/Views/ReadBlog/ReadBlog'
+import CityEventPage from "./Views/Events/CityEventPage/CityEventPage"
 
 import Showdonor from './Views/Showdonor/Showdonor';
+
 
 const router = createBrowserRouter([
   {
@@ -28,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/blog",
     element: <Blog/>,
+  },
+  {
+    path:"/blog/read/:id",
+    element:<ReadBlog/>,
   },
   {
     path: "/event",
