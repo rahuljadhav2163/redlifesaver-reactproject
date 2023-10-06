@@ -4,16 +4,18 @@ import Navbar from '../../Component/Navbar/Navbar';
 import { SearchBtn } from './../../Component/Button/Button';
 import Bloodbank from './Bloodbank.json';
 import Footer from '../../Component/Footer/Footer';
-
+import blooddropimage from './blood-drop.png'
 import { Link } from 'react-router-dom';
 import showdata from "./../Showhospitalname/Showhospitalname.json"
 import Hospitalcard from '../../Component/Hospitalcard/Hospitalcard';
-
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/js/bootstrap.min.js'
+import { StepCard } from "./../../Component/Card/Card"
 
 function Bloodbanks() {
   const [selectedState, setSelectedState] = useState('');
   const [selectedDistrict, setSelectedDistrict] = useState("");
-  
+
   const handleStateChange = (event) => {
     setSelectedState(event.target.value);
   };
@@ -23,7 +25,7 @@ function Bloodbanks() {
 
   };
 
-  const filterhospital = showdata.filter((hospital)=>{
+  const filterhospital = showdata.filter((hospital) => {
     return hospital.city === `${selectedDistrict}`
   })
 
@@ -47,10 +49,10 @@ function Bloodbanks() {
         <div>
           <select className='list-item-find' onChange={handleDistrictChange} >
             <option value=""  >Select District</option>
-            {districts.map((district, index) => 
+            {districts.map((district, index) =>
             (
               <option key={district}  >{district} </option>
-               
+
             ))
 
             }
@@ -58,22 +60,22 @@ function Bloodbanks() {
         </div>
         <div>
         </div>
-        <div>
-       <SearchBtn search="Search"  />
+        <div className='search-btn'>
+          <SearchBtn search="Search" />
         </div>
         <div>
-    
+
         </div>
-   
+
       </div>
-      
+
       <div className='hospital-div'>
-      {
-         filterhospital.map((hospital, index) => {
-            const { name, address, city, location ,contact,imgURL} = hospital;
+        {
+          filterhospital.map((hospital, index) => {
+            const { name, address, city, location, contact, imgURL } = hospital;
             return (
-              <div>
-                <Hospitalcard name={name}  address={address} city={city} location={location} contact={contact} imgURL={imgURL} />
+              <div className='hospital-card-flex'>
+                <Hospitalcard name={name} address={address} city={city} location={location} contact={contact} imgURL={imgURL} />
               </div>
 
 
@@ -81,7 +83,33 @@ function Bloodbanks() {
           })
         }
       </div>
-    <h1 className='review'><Link to="/">Review</Link></h1>
+      <img src={blooddropimage} className='blooddropimg' />
+      <p className="find-blood">HOW TO FIND BLOOD DONATION HOSPITAL STEPS</p>
+      <div className='stepscard'>
+
+        <StepCard steps="User Selection of State:" follorulls=" the user to select a state from a 
+      predefined list or through a user interface where they can choose a state. The user Select name from a drop down menu"  />
+        <StepCard steps="Processing User's State Selection:" follorulls="The receives the state. 
+        It validates the state
+        to ensure it matches one of the states or options."
+        />
+        <StepCard steps="Fetching Districts for the Selected State:" follorulls=" the user to select a state from a 
+      predefined list or through a user interface where they can choose a state.It may display these districts to the user for selection." />
+        <StepCard steps="User Selection of District:" follorulls=" The  user to select a district
+             from the list of districts associated with the selected state.The user provides  
+             the district name or selecting from a dropdown menu." />
+
+        <StepCard steps="Processing User's District Selection:" follorulls=" The  user's receives  the district.
+It validates the selected district it matches one of the districts associated with the selected state."  />
+        <StepCard steps="Fetching Districts for the Selected State:" follorulls=" the user to select a state from a 
+      predefined list or through a user interface where they can choose a state.It may display these districts to the user for selection." />
+        <StepCard steps="Processing Hospital Data:" follorulls=" The program parses and processes the retrieved hospital data to extract the hospital names, addresses, and live location information." />
+        <StepCard steps="Displaying or Printing Hospital Information:" follorulls=" The program displays  the extracted hospital names, addresses, and live locations to that hospital This could be presented as a card  for easy readability and understanding." />
+
+
+
+      </div>
+
       <Footer />
     </div>
 

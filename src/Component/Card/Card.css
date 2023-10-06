@@ -144,3 +144,14 @@
     background-color: #fc6a09;
     color: white;
 }
+.StepsCard{
+    margin: 10px;
+    box-shadow: 0 0 5px 0.5px rgb(151, 151, 150);
+    padding: 20px;
+    height: 150px;
+    width: 400px;
+
+}
+.stepcard-title{
+    color: #fc6a09;
+}
