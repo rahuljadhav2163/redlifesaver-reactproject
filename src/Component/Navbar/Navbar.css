@@ -7,17 +7,23 @@ display: flex;
 .nav-item-container{
     background-color: #fc6a09;
     height: 60px;
+    display: flex;
 }
 .logo{
-    width: 250px;
-    height: 70px;
-    padding-top: 20px;
-    padding-left: 150px;
+    width: 600px;
+    height: 350px;
+    margin-top: -100px;
+}
+.hplogo{
+    height: 100px;
+    margin-top: -22px;
+    margin-left: 85px;
+    
 }
 .call-icon{
     color: white;
     font-size: 34px;
-    margin-left: 420px;
+    margin-left: 260px;
     margin-top: 37px;
 }
 .mob-no{
@@ -38,6 +44,13 @@ display: flex;
     text-decoration: none;
     color: white;
 }
+.web-title{
+    font-size: 22px;
+    margin-top: 18px;
+    margin-left: -30px;
+    color: rgb(199, 224, 246);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .decoration{
     text-decoration: none;
     color: white;
@@ -45,7 +58,7 @@ display: flex;
 .home-link{
     margin: 0;
     padding-top: 20px;
-    margin-left: 650px;
+    margin-left: 350px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .danate-us{
