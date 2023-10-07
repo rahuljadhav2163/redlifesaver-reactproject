@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.css";
 import Cardimg from "./cardimggg.png";
-import { Link } from "react-router-dom";
+
 
 
 export  const Countcard = (props) => {
@@ -92,6 +92,17 @@ export function FacilityCard({title,discription,faciBtn,img}){
       </div>
      
     </div>
+  )
+}
+export function TeamCard({name, contact,instagram}){
+  return(
+    <div className="Team-Card-container">
+      <h1 className="team-members-name">{name}</h1>
+      <p className="team-members-contact">{contact}</p>
+      <p className="team-members-email"><a href={instagram}> email</a></p>
+      </div>
+     
+   
   )
 }
 
