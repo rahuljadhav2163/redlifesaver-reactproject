@@ -13,6 +13,7 @@ import Showdonor from '../Showdonor/Showdonor'
 import Sponceimg from "./img/sponsorship.jpeg"
 import Simg from "./img/Sponsorship-2048x1452.jpeg"
 import {Cardtype} from "./../../Component/Card/Card"
+import  showToast  from 'crunchy-toast';
 function Home() {
 
 
@@ -22,7 +23,12 @@ function Home() {
   const [search, setSearch] = useState("");
 
   const findpage = () => {
-    navigate(`/showdonar/${search}`);
+    const userInLocalStorage = localStorage.getItem('currentuser'); 
+    if (userInLocalStorage) {
+      navigate(`/showdonar/${search}`);
+    } else {
+      showToast('User not found..?', 'alert', 4000);
+    }
   }
   
   return (

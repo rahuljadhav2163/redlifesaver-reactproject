@@ -12,8 +12,15 @@ function Donateus() {
     const [date, setDate] = useState('');
 
     const handleSubmit = () => {
+        const userInLocalStorage = localStorage.getItem('currentuser'); 
+    
+        if (!userInLocalStorage) {
+            showToast('User not found..!', 'alert', 4000);
+            return; 
+        }
+    
         const existingData = JSON.parse(localStorage.getItem('donor')) || [];
-
+    
         const newDonor = {
             name,
             mobile,
@@ -22,9 +29,9 @@ function Donateus() {
             date,
         };
         existingData.push(newDonor);
-
+    
         localStorage.setItem('donor', JSON.stringify(existingData));
-
+    
         showToast('Your Data Is Added Succesfully..!', 'success', 4000);
     
         setName('');
@@ -33,6 +40,7 @@ function Donateus() {
         setAddress('');
         setDate('');
     };
+    
 
 
     return (
