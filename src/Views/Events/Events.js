@@ -22,6 +22,9 @@ function Events() {
   return (
     <>
       <Navbar />
+      <div className='campdetail'>
+        <h1>What is the main goal of organizing blood donation events and camps?</h1>
+      </div>
       <div className='image-back'> </div>
       <h1 className='text-quote'>Donate blood and save lives</h1>
       <h1 className='title-events'>EVENTS OF MAHARASHTRA STATE BRANCH DISTRICT</h1>
@@ -58,7 +61,7 @@ function Events() {
         />
       </div>
 
-      <h1 className='upcoming-camp'>Recent Camps </h1>
+      <h1 className='upcoming-camp'>Recent Completed Camps </h1>
       <div className='city-data'>
         <div className='city'>
           <h1 className='city-title'>City</h1>
@@ -72,7 +75,7 @@ function Events() {
           <h1 className='city-name-high'>{selectedCity}</h1>
           <h2>Events Snapshot</h2>
           {getEventData(selectedCity).map((eventData, index) => {
-            const { imgEvent, title, description, date, button } = eventData;
+            const { imgEvent, title, description, date} = eventData;
             return (
               <div className='activity' key={index}>
                 <div>

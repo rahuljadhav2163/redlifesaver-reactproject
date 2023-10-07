@@ -16,7 +16,7 @@
 
 ### Real Life Use 🚀
 
-**Our project, 'Red Life Saver,' revolves around the critical real-life need for blood donation in India. India faces a constant shortage of blood, which can be life-threatening for patients in need of transfusions due to accidents, surgeries, or medical conditions. 'Red Life Saver' serves as a practical solution to this pressing issue. convert in hindi**
+**Our project, 'Red Life Saver,' revolves around the critical real-life need for blood donation in India. India faces a constant shortage of blood, which can be life-threatening for patients in need of transfusions due to accidents, surgeries, or medical conditions. 'Red Life Saver' serves as a practical solution to this pressing issue.**
 
 ### Contributors 👏🤝
 
