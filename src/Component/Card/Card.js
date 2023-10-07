@@ -94,17 +94,19 @@ export function FacilityCard({title,discription,faciBtn,img}){
     </div>
   )
 }
-export function TeamCard({name, contact,instagram,img}){
+export function TeamCard({name, linkdin, github, img ,education}){
   return(
     <div className="Team-Card-container">
-    
+    <div className="team-member-container">
       <img src={img} className="team-member-image"/>
       <h3 className="team-members-name">{name}</h3>
-      <p className="team-members-email"><a href={instagram}> email</a></p>
-      <p className="team-members-contact">{contact}</p>
-  
+      <p className="education-para">{education}</p>
+      <div className="profile-div">
+      <p className="team-members-email"><a href={github} className="profile-link"><i class="bi bi-github"></i></a></p>
+      <p className="team-members-contact"><a href={linkdin} className="profile-link"><i class="bi bi-linkedin"></i></a></p>
       </div>
-     
+      </div>
+      </div>
    
   )
 }

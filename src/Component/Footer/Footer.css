@@ -27,3 +27,13 @@
 .text-decoration:hover{
 color: white;
 }
+@media screen and (min-width:200px) and (max-width:710px){
+  .footer-container{
+    height: 300px;
+    width: 100%;
+    margin-top: 90px;
+    background-color: #1e2a36;
+    color: white;
+    font-size: 20px;
+  }
+}

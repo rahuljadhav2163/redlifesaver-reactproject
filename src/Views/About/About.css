@@ -35,6 +35,7 @@
 .About-container{
     display: flex;
     text-align: justify;
+    
 }
 .initiative-purpose-div{
     margin: 20px;
@@ -59,3 +60,121 @@
 .our-team{
     text-align: center;
 }
+@media screen and (min-width:200px) and (max-width:710px) {
+  .whoarea{
+   width: 100%;
+  }
+  .About-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .help-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  .facility-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .team-card{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+   
+  }
+  .Gearth-img{
+    width: 350px;
+    height: 300px;
+    margin-top: 10px;
+    align-items: center;
+  }
+  .about-title{
+    /* margin-left: 600px; */
+    text-align: center;
+   position: relative;
+   top: -20px;
+   font-size: 15px;
+   color: orangered;
+}
+.hrone{
+    width: 20%;
+    margin-right: 30px;
+    position: relative;
+   top: 20px;
+}
+.hrtwo{
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.team-card{
+    margin: 20px;
+}
+
+}
+@media screen and (min-width:711px) and (max-width:900px) {
+    .About-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .help-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+       
+      }
+      .hrone{
+        width: 23%;
+        margin-right: 30px;
+        position: relative;
+       top: 40px;
+    }
+    .hrtwo{
+        width: 23%;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    .facility-div{
+        display: flex;
+        flex-direction: column;
+      margin-left: 140px;
+       margin-top: -50px;
+       
+      }
+      .team-card{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      }  
+    
+}
+@media screen and (min-width:900px) and (max-width:1300px){
+
+  .About-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ .Gearth-img{
+  width: 800px;
+ }
+ .help-card{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+ }
+
+ .team-card{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+ }
+}
+
