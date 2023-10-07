@@ -64,7 +64,7 @@ function Home() {
 
               <div className='cirlefirst'>
                 <p className='drop-blood'><i class="bi bi-people-fill"></i></p>
-                <p className='blood-bonor-text'>Find Blood <br /><span className='doner-text'>&nbsp;&nbsp;Donor</span> </p>
+                <p className='blood-bonor-text'>Find Blood <br /><span className='doner-text'>&nbsp;&nbsp;&nbsp;&nbsp;Donor</span> </p>
               </div>
             </div>
 
@@ -149,7 +149,7 @@ function Home() {
 
           </div>
 
-         
+         <Footer/>
           
 
         </div>

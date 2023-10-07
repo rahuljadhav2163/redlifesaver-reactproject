@@ -22,7 +22,7 @@ function Card({name,address,date,numbar,group}) {
            <img className="cardimgg" src={Cardimg}/>
            <div>
             <p className="bld-grp">{group}</p>
-            <h1>{name}</h1>
+            <h1 className="nameofdonor">{name}</h1>
             <h3>{address}</h3>
             <p>With Us From : {date}</p>
             <p>Contact : {numbar}</p>

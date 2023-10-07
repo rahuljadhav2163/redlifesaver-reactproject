@@ -116,9 +116,10 @@ display: flex;
     .web-title{
         font-size: 15px;
         margin-top: 5px;
+        display: none;
     }
     .home-link{
-        margin-left: 2px;
+        margin-left: -30px;
         margin-top: -10px;
     }
     .link-tag{
@@ -135,5 +136,11 @@ display: flex;
         margin-left: 15px;
         display: none;
     }
-
+    .log-contain{
+        margin-left: 10px;
+    }
+    
+    .users-name{
+        display: none;
+    }
 }

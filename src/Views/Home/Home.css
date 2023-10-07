@@ -3,7 +3,7 @@
 }
 
 .background-img {
-    background-image: url("./img/blood.jpg");
+    
     background-size: cover;
     height: 700px;
     margin-top: -30px;
@@ -26,7 +26,7 @@
 
 
 .home-danateline {
-    color: white;
+    
     margin: 50px;
     font-size: 35px;
     font-weight: bold;
@@ -37,6 +37,7 @@
 .crl-container {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 
@@ -54,7 +55,7 @@
 
 .drop-blood {
     font-size: 70px;
-    color: aliceblue;
+   color: red;
     margin: 10px;
     padding-left: 70px;
     padding-top: 10px;
@@ -63,7 +64,7 @@
 .blood-bonor-text {
     font-size: 25px;
     margin-left: 52px;
-    color: white;
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -301,4 +302,5 @@
     .containrdonater{
         display: block;
     }
+   
 }
