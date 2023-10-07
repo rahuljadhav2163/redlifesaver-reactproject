@@ -12,7 +12,6 @@ function Login() {
 
     if (user.email === email && user.password === password) {
       localStorage.setItem("currentuser", JSON.stringify(user));
-      showToast('Login Succesfully...!', 'success', 3000);
       window.location.href = "/"
       } 
     else {

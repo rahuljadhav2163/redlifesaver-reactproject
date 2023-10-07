@@ -4,6 +4,7 @@ import logo from "./img/redlifesaverlogo.png";
 import Button from './../Button/Button';
 import { Outbtn } from './../Button/Button';
 import { Link } from "react-router-dom";
+import  showToast  from 'crunchy-toast';
 
 function Navbar() {
   const [user, setUser] = useState(null);
@@ -13,12 +14,14 @@ function Navbar() {
     const userData = JSON.parse(localStorage.getItem('currentuser'));
     if (userData) {
       setUser(userData);
+      showToast('Login Succesfully', 'warning', 4000);
     }
   }, []);
 
   const handleLogout = () => {
     localStorage.removeItem('currentuser');
     setUser(null);
+    showToast('Logout Succesfully', 'success', 4000);
   }
 
   return (
@@ -27,7 +30,7 @@ function Navbar() {
         <img className='logo' src={logo} />
 
         <span className='call-icon'><i className="bi bi-telephone-forward"></i></span>
-        <p className='mob-no'>+91 7057461164<p className='our-team'>Red Life Saver Team</p></p>
+        <p className='mob-no'>+91 7057461164<p className='our-teanmm'>Red Life Saver Team</p></p>
 
         {user ? (
           <div className='log-contain'>
