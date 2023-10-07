@@ -97,6 +97,8 @@ function Bloodbanks() {
       <img src={blooddropimage} className='blooddropimg' />
       <p className="find-blood">HOW TO FIND BLOOD DONATION HOSPITAL STEPS</p>
       <div className='stepscard'>
+        
+      <StepCard steps="Login & Register is required" follorulls="  If you'd like to search on our website, we ask that you register first. It's a quick step and helps you access all our features. Just take a moment to create an account, and you'll be ready to go."  />
 
         <StepCard steps="User Selection of State:" follorulls=" the user to select a state from a 
       predefined list or through a user interface where they can choose a state. The user Select name from a drop down menu"  />
