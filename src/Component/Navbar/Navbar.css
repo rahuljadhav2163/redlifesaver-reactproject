@@ -27,8 +27,8 @@ display: flex;
     padding-top: 10px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.our-tean{
-    margin-top: 7px;
+.our-teanmm{
+    margin-top: 5px;
     color: #aaaaaaa7;
 }
 .link-tag{
@@ -56,6 +56,33 @@ display: flex;
     margin-left: 90px;
     color: aliceblue;
     font-weight: bold;
+    cursor: pointer;
+}
+.logout-btn{
+    font-size: 18px;
+    height: 40px;
+    padding: 10px 20px;
+    color: red;
+    margin-left: 335px;
+    margin-top: 30px;
+    background-color: #1e2a36;
+    border: none;
+}
+.log-contain{
+    margin-left: 270px;
+}
+.logout-bn{
+    margin-top: 27px;
+    border: none;
+    background-color: #1e2a36;
+    color: red;
+    font-size: 16px;
+    margin-left: 90px;
+    cursor: pointer;
+}
+.users-name{
+    color: white;
+    font-size: 20px;
     cursor: pointer;
 }
 

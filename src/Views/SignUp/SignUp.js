@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './Sign-Up.css';
+import  showToast  from 'crunchy-toast';
 import Navbar from './../../Component/Navbar/Navbar';
 import Footer from "../../Component/Footer/Footer";
 
@@ -10,18 +11,16 @@ export default function SignUp() {
     const [password, setPassword] = useState('');
 
     function handleCheck() {
-        
         const user = {
             name,
             mobile,
             email,
             password,
         };
-
         
         localStorage.setItem("user", JSON.stringify(user));
 
-        alert("Sign up successfully");
+        showToast('Sign Up Succesfully', 'success', 3000);
 
         
         setEmail('');

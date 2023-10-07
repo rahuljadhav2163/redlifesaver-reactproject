@@ -1,27 +1,23 @@
 import React, { useState } from 'react';
 import './Login.css';
+import  showToast  from 'crunchy-toast';
 
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [errorMessage, setMessage] = useState('');
-
+  
   const handleLogin = () => {
     
     const user = JSON.parse(localStorage.getItem('user'));
 
-    console.log(user);
-
-    if ( user.email === email && user.password === password) {
-     
-      alert('Login successfullly');
-    } else {
-      
-      setMessage('Invalid email  password');
+    if (user.email === email && user.password === password) {
+      localStorage.setItem("currentuser", JSON.stringify(user));
+      window.location.href = "/"
+      } 
+    else {
+      (showToast('Invalid Email Or Password..?', 'alert', 3000));
     }
   }
-
-  
 
   return (
     <>
@@ -29,11 +25,12 @@ function Login() {
       <form>
         <div className="login-container">
           <div className="email">
-            <label htmlFor="email">Email</label>
+            <label type="email">Email</label>
             <input
-              type="text"
+             
               name="email"
               id="email"
+              type="email" 
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -58,7 +55,7 @@ function Login() {
           </button>
         </div>
       </form>
-       <p className="error-message">{errorMessage}</p>
+       
     </>
   );
 }

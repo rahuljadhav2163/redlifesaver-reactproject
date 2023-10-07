@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Donateus.css';
 import Navbar from '../../Component/Navbar/Navbar';
 import Footer from '../../Component/Footer/Footer';
+import  showToast  from 'crunchy-toast';
 function Donateus() {
 
     const [name, setName] = useState('');
@@ -24,6 +25,8 @@ function Donateus() {
 
         localStorage.setItem('donor', JSON.stringify(existingData));
 
+        showToast('Your Data Is Added Succesfully..!', 'success', 4000);
+    
         setName('');
         setMobile('');
         setBloodGroup('Blood Group :');
