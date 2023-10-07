@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import "./Navbar.css";
-import logo from "./img/redlifesaverlogo.png";
+import logo from "./img/RLS-LOGO.png";
 import Button from './../Button/Button';
 import { Outbtn } from './../Button/Button';
 import { Link } from "react-router-dom";
+import Hplogo from "./img/hplogo.png"
 import  showToast  from 'crunchy-toast';
 
 function Navbar() {
@@ -14,7 +15,7 @@ function Navbar() {
     const userData = JSON.parse(localStorage.getItem('currentuser'));
     if (userData) {
       setUser(userData);
-      showToast('Login Succesfully', 'warning', 4000);
+
     }
   }, []);
 
@@ -39,16 +40,18 @@ function Navbar() {
           </div>
         ) : (
           <>
-            <Link to="/signup"><Button text='Register' /></Link>
+            <Link to="/signup"><Button className="btnn-regi" text='Register' /></Link>
             <Link to="/login"><Outbtn btnname='Login' /></Link>
           </>
         )}
       </div>
       <div className='nav-item-container'>
+      <img className='hplogo' src={Hplogo} /><span className='web-title'>RED LIFE SAVER</span>
         <p className='home-link'>
+        
           <span className='link-tag'><Link className='decoration' to="/">HOME</Link></span>
           <span className='link-tag'><Link className='decoration' to="/event">UPCOMING CAMPS</Link></span>
-          <span className='link-tag'><Link className='decoration' to="/bloodbank">BLOOD BANKS</Link></span>
+          <span className='link-tag'><Link className='decoration' to="/bloodbank">BLOOD <span className='extrs'>BANKS</span></Link></span>
           <span className='link-tag'><Link className='decoration' to="/blog">BLOG</Link></span>
           <span className='link-tag'><Link className='decoration' to="/about">ABOUT US</Link></span>
           <button className='danate-us'><Link className='decoration' to="/donateus">DONATE US</Link></button>

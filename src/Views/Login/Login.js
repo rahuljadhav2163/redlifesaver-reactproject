@@ -17,6 +17,7 @@ function Login() {
     if (user.email === email && user.password === password) {
       localStorage.setItem("currentuser", JSON.stringify(user));
       window.location.href = "/"
+      
       } 
     else {
       (showToast('Invalid Email Or Password..?', 'alert', 3000));
