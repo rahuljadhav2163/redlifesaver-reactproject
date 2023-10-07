@@ -14,9 +14,8 @@ import Sponceimg from "./img/sponsorship.jpeg"
 import Simg from "./img/Sponsorship-2048x1452.jpeg"
 import {Cardtype} from "./../../Component/Card/Card"
 import  showToast  from 'crunchy-toast';
+
 function Home() {
-
-
   const [bloodcount, setBloodCount] = useState(Datacount)
   const navigate = useNavigate();
   const [ddata, setddata] = useState(Donerdata);
@@ -32,10 +31,10 @@ function Home() {
   }
   
   return (
-    <div>
-
+    <div className='inex'>
+           <Navbar/>
       <div className='background-img'>
-        <Navbar />
+     
         <div className='container-blood-find'>
           <div className='homeform-container'>
             <select onChange={(e) => { setSearch(e.target.value) }} className="selectgroup">
@@ -60,12 +59,12 @@ function Home() {
             <div className='crl-container'>
               <div className='cirlefirst'>
                 <p className='drop-blood'><i class="bi bi-droplet-fill"></i></p>
-                <p className='blood-bonor-text'>&nbsp;&nbsp;Request<br /><span className='doner-text'>Blood</span> </p>
+                <p className='blood-bonor-text'>&nbsp;&nbsp;Request<br /><span className='doner-text'>&nbsp;&nbsp;&nbsp;&nbsp;Blood</span> </p>
               </div>
 
               <div className='cirlefirst'>
                 <p className='drop-blood'><i class="bi bi-people-fill"></i></p>
-                <p className='blood-bonor-text'>Find Blood <br /><span className='doner-text'>Donor</span> </p>
+                <p className='blood-bonor-text'>Find Blood <br /><span className='doner-text'>&nbsp;&nbsp;Donor</span> </p>
               </div>
             </div>
 
@@ -99,7 +98,7 @@ function Home() {
             <p className='name-danation'>Causes</p>
             <div className='container-donation'>
               <p className='flag'><i class="bi bi-flag-fill"></i></p>
-              <p> <span className='danate-line'>Red life saver team recieve today recent causes to fundering for capable charitable project.<span className='btnnnn'><Cardbtn value="Causes" /></span></span></p>
+              <p> <span className='danate-line'>Red life saver team recieve today recent causes to fundering for capable charitable project.<span className='btnnnn'><Cardbtn className="btne" value="Causes" /></span></span></p>
             </div>
 
           </div>
@@ -119,6 +118,7 @@ function Home() {
           }
         </div>
         <div className='cardddd-container'>
+          
           <Cardtype head="Blood Donation Camps" text="We collaborate with colleges, corporates, RWAs to organize innovative and engaging blood donation camps end to end." btnname="Organize Camp"/>
           <Cardtype head="Handling Helpline" text="Through helpline requests, we help address immediate blood requirements by patients blood donation camps end to end." btnname="Find A Donor"/>
           <Cardtype head="Awareness Session" text="Street plays, competitions, and sessions - targeted at inspiring people, especially the first timers, to come out and donate." btnname="Learn A More"/>
@@ -153,7 +153,7 @@ function Home() {
           
 
         </div>
-        <Footer/>
+     
 
       </div>
       
