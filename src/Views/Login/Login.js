@@ -3,28 +3,24 @@ import './Login.css';
 import image from './blood-img.png'
 import Navbar from './../../Component/Navbar/Navbar'
 import Footer from './../../Component/Footer/Footer'
+import  showToast  from 'crunchy-toast';
 
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [errorMessage, setMessage] = useState('');
-
+  
   const handleLogin = () => {
     
     const user = JSON.parse(localStorage.getItem('user'));
 
-    console.log(user);
-
-    if ( user.email === email && user.password === password) {
-     
-      alert('Login successfullly');
-    } else {
-      
-      setMessage('Invalid email  password');
+    if (user.email === email && user.password === password) {
+      localStorage.setItem("currentuser", JSON.stringify(user));
+      window.location.href = "/"
+      } 
+    else {
+      (showToast('Invalid Email Or Password..?', 'alert', 3000));
     }
   }
-
-  
 
   return (
     <>
@@ -41,7 +37,7 @@ function Login() {
             <input
               type="text"
               placeholder='Email'
-              name="email"
+             name="email"
               id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -70,10 +66,10 @@ function Login() {
           </button>
         </div>
       </form>
-      
-       <p className="error-message">{errorMessage}</p>
+
        </div>
        <Footer/>
+       
     </>
   );
 }

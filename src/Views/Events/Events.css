@@ -1,5 +1,8 @@
 .event{
     text-align: center;
+
+    
+    background-color: #ffeae6;
 }
 .img-blood{
     display: block;
@@ -38,9 +41,7 @@ background-position: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
-.event{
-    margin-left: 150px;
-}
+
 .activity{
    display: flex;
   
@@ -82,7 +83,7 @@ background-position: center;
 
 }
 .cityName:hover{
-    color: rgb(1, 1, 63);
+    color:red;
 }
 
 .Event-main-container{
@@ -93,11 +94,7 @@ background-position: center;
     border-radius: 20px;
     height: 450px;
     width: 380px;
-    box-shadow: 0 0 5px 5px lightgray;
-    
-    
-
-    
+    box-shadow: 0 0 5px 5px lightgray;   
 }
 .title{
     text-align: center;
@@ -111,13 +108,31 @@ background-position: center;
     flex-direction: row;
     justify-content: space-around;
 
+    background-color: #ffeae6;;
+
 }
 .upcoming-camp{
     text-align: center;
     color: rgb(251, 46, 5);
     margin-top: 50px;
     margin-bottom: 30px;
-    
-
 }
-
+.city{
+    background-color: #ffeae6;
+    padding: 20px;
+}
+.campdetail{
+    box-shadow: 1px 3px 5px 1px rgb(251, 46, 5);
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 100px;
+}
+.text-donationDetail{
+    font-size: 20px;
+}
+.title-color{
+    color: rgb(251, 46, 5);
+}
