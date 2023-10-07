@@ -121,3 +121,18 @@ background-position: center;
     background-color: #ffeae6;
     padding: 20px;
 }
+.campdetail{
+    box-shadow: 1px 3px 5px 1px rgb(251, 46, 5);
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 100px;
+}
+.text-donationDetail{
+    font-size: 20px;
+}
+.title-color{
+    color: rgb(251, 46, 5);
+}

@@ -22,10 +22,17 @@ function Events() {
   return (
     <>
       <Navbar />
-      <div className='campdetail'>
-        <h1>What is the main goal of organizing blood donation events and camps?</h1>
-      </div>
+   
       <div className='image-back'> </div>
+      <div className='campdetail'>
+        <h1 className='title-color'>What is the main goal of organizing blood donation events and camps?</h1>
+        <p className='text-donationDetail'> The main goal of organizing blood donation events and camps is to ensure a stable and adequate supply of blood for medical emergencies, surgeries, and various medical treatments. These events aim to:
+        <br/><br/><b>💖Save Lives: </b>By collecting donated blood, these events provide a lifeline to patients in critical conditions, such as accident victims, surgery patients, cancer patients, and individuals with blood disorders.<br/><br/>
+        <b>Support Healthcare: </b>Blood donation events play a crucial role in supporting the healthcare system by ensuring that hospitals and clinics have a sufficient and readily available blood supply.<br/><br/>
+        <b>Raise Awareness:</b> They also serve to raise awareness about the importance of regular blood donation and create a culture of altruism and community responsibility.<br/><br/>
+        <b>Foster Community Engagement: </b> These events bring communities together, encouraging individuals to actively participate in helping others and contributing to the well-being of society</p>
+        
+      </div>
       <h1 className='text-quote'>Donate blood and save lives</h1>
       <h1 className='title-events'>EVENTS OF MAHARASHTRA STATE BRANCH DISTRICT</h1>
 
