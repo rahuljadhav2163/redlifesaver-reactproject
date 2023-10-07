@@ -2,6 +2,8 @@ import React from "react";
 import "./Card.css";
 import Cardimg from "./cardimggg.png";
 
+
+
 export  const Countcard = (props) => {
   const {number , group} = props;
 
@@ -69,8 +71,38 @@ export function StepCard({steps,follorulls}) {
       <div className="StepsCard">
           <h3 className="stepcard-title">{steps}</h3>
           <p className="stepcard-descriptions">{follorulls}</p><hr/>
+
         
       </div>
     </div>
   )
 }
+export function FacilityCard({title,discription,faciBtn,img}){
+  return(
+    <div className="facility-container">
+      <div className="facilityCard">
+        <div className="facility">
+     <div><img src={img}/></div>
+     <div>
+      <h3 className="facilitycard-title">{title}</h3>
+      <p className="facilitycard-description">{discription}</p>
+     <button className="faciBtn">{faciBtn}</button>
+      </div>
+      </div>
+      </div>
+     
+    </div>
+  )
+}
+export function TeamCard({name, contact,instagram}){
+  return(
+    <div className="Team-Card-container">
+      <h1 className="team-members-name">{name}</h1>
+      <p className="team-members-contact">{contact}</p>
+      <p className="team-members-email"><a href={instagram}> email</a></p>
+      </div>
+     
+   
+  )
+}
+
