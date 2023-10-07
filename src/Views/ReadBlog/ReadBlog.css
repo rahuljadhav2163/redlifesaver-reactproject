@@ -23,9 +23,7 @@ body{
     margin-top: 10px;
     padding-top: 40px;
     color: red;
-   
-  
-}
+   }
 .blood-blog-description{
     font-size: 22px;
    }
@@ -50,4 +48,171 @@ body{
 .title-desc-container{
     width: 1300px;
     margin-left: 100px;
+}
+@media screen and (max-width:600px){
+   
+    .img-desc-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+   
+    .blood-blog-image{
+        width: 360px;
+        height: 200px;
+        margin-top: 20px;
+   position: relative;
+   right: 72px;
+     box-shadow: 0 1px 10px 2px black;
+    }
+    .blood-blog-titles{
+        text-align: center;
+        font-size: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 10px;
+        margin-right: 60px;
+        padding-top: 40px;
+        color: red;
+       }
+    .blood-blog-description{
+        font-size: 20px;
+        margin-right: 60px;
+       }
+       .blood-blog-des-container{
+        height: 150px;
+        width: 360px;
+        margin-top: 10px;
+    }
+    .title-desc-container{
+        width: 360px;
+        margin-left: 45px;
+        position: relative;
+        top: 100px;
+       text-align: justify;
+    }
+    .blood-blog-title{
+       font-size: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 10px;
+        margin-right: 60px;
+        padding-top: 40px;
+    }
+}
+@media screen and (min-width:415px) and (max-width:800px){
+   
+    .img-desc-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        }
+   .blood-blog-image{
+        width: 500px;
+        height: 350px;
+        margin-top: 20px;
+   position: relative;
+   right: 72px;
+     box-shadow: 0 1px 10px 2px black;
+    }
+    .blood-blog-titles{
+        text-align: center;
+        font-size: 40px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 10px;
+        margin-right: 360px;
+        padding-top: 40px;
+        color: red;
+       }
+    .blood-blog-description{
+        font-size: 20px;
+        margin-right: 160px;
+        width: 500px;
+       }
+       .blood-blog-des-container{
+        height: 150px;
+        width: 800px;
+        margin-top: 10px;
+       position: relative;
+       right: 30px;
+       padding-left: 5px;
+       padding-right: 5px;
+}
+    .title-desc-container{
+        width: 500px;
+        margin-left: 45px;
+        position: relative;
+        top: 100px;
+        right: 20px;
+       text-align: justify;
+    }
+    .blood-blog-title{
+       font-size: 30px;
+       width: 500px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 10px;
+       position: relative;
+       right: 30px;
+        padding-top: 40px;
+    }
+}
+@media screen and (min-width:801px) and (max-width:1200px){
+   
+    .img-desc-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        }
+   .blood-blog-image{
+        width: 500px;
+        height: 350px;
+        margin-top: 20px;
+   position: relative;
+  
+     box-shadow: 0 1px 10px 2px black;
+    }
+    .blood-blog-titles{
+        text-align: center;
+        font-size: 40px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 10px;
+        padding-top: 40px;
+        color: red;
+       }
+    .blood-blog-description{
+        font-size: 20px;
+        margin-right: 160px;
+        width: 800px;
+       }
+       .blood-blog-des-container{
+        height: 150px;
+        width: 800px;
+        margin-top: 10px;
+       position: relative;
+       right: 30px;
+       padding-left: 5px;
+       padding-right: 5px;
+}
+    .title-desc-container{
+        width: 1201px;
+        margin-left: 45px;
+        position: relative;
+        top: 100px;
+        right: 20px;
+       text-align: justify;
+    }
+    .blood-blog-title{
+       font-size: 30px;
+       width: 1201px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 10px;
+       position: relative;
+       right: 30px;
+        padding-top: 40px;
+    }
 }
