@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 import showdata from "./../Showhospitalname/Showhospitalname.json"
 import Hospitalcard from '../../Component/Hospitalcard/Hospitalcard';
 import { StepCard } from "./../../Component/Card/Card"
+import  showToast  from 'crunchy-toast';
 
 function Bloodbanks() {
   const [selectedState, setSelectedState] = useState('');
@@ -21,17 +22,23 @@ function Bloodbanks() {
 
   const handleDistrictChange = (event) => {
     setSelectedDistrict(event.target.value);
-
   };
 
   const handleSearch = () => {
-    const filteredHospitalData = showdata.filter((hospital) => {
-      return hospital.city === selectedDistrict;
-    });
+   
+    const userExistsInLocalStorage = localStorage.getItem('currentuser') !== null;
   
-    setFilteredHospitals(filteredHospitalData);
-
+    if (userExistsInLocalStorage) { 
+      
+      const filteredHospitalData = showdata.filter((hospital) => {
+        return hospital.city === selectedDistrict;
+      });
+      setFilteredHospitals(filteredHospitalData);
+    } else {
+      showToast('User not found..?', 'alert', 4000);
+    }
   };
+  
   const districts = selectedState ? Bloodbank[selectedState] : [];
 
   return (

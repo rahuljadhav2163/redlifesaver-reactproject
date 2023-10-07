@@ -14,9 +14,8 @@ import Sponceimg from "./img/sponsorship.jpeg"
 import Simg from "./img/Sponsorship-2048x1452.jpeg"
 import {Cardtype} from "./../../Component/Card/Card"
 import  showToast  from 'crunchy-toast';
+
 function Home() {
-
-
   const [bloodcount, setBloodCount] = useState(Datacount)
   const navigate = useNavigate();
   const [ddata, setddata] = useState(Donerdata);

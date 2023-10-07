@@ -15,7 +15,7 @@ function Navbar() {
     const userData = JSON.parse(localStorage.getItem('currentuser'));
     if (userData) {
       setUser(userData);
-      showToast('Login Succesfully', 'warning', 4000);
+
     }
   }, []);
 
