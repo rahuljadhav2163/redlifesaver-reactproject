@@ -73,9 +73,27 @@
     width: 150px;
     font-size: 16px;
     border-radius: 5px;
-    margin-left: 220px;
+    margin-left: 20px;
     margin-top: 20px;
     background-color: #fc6a09;
     color: white;
 }
 
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .btn-navbar{
+        margin-left: 25px;
+        font-size: 15px;
+        height: 30px;
+        width: 100px;
+        margin-right: 9px;
+    }
+    .btn-navbar-out{
+        margin-left: 0px;
+        margin-top: 70px;
+        height: 30px;
+        width: 100px;
+        margin-left: -110px;
+        font-size: 15px;
+    }
+}

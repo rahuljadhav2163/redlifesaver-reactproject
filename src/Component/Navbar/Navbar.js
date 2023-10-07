@@ -40,7 +40,7 @@ function Navbar() {
           </div>
         ) : (
           <>
-            <Link to="/signup"><Button text='Register' /></Link>
+            <Link to="/signup"><Button className="btnn-regi" text='Register' /></Link>
             <Link to="/login"><Outbtn btnname='Login' /></Link>
           </>
         )}
@@ -51,7 +51,7 @@ function Navbar() {
         
           <span className='link-tag'><Link className='decoration' to="/">HOME</Link></span>
           <span className='link-tag'><Link className='decoration' to="/event">UPCOMING CAMPS</Link></span>
-          <span className='link-tag'><Link className='decoration' to="/bloodbank">BLOOD BANKS</Link></span>
+          <span className='link-tag'><Link className='decoration' to="/bloodbank">BLOOD <span className='extrs'>BANKS</span></Link></span>
           <span className='link-tag'><Link className='decoration' to="/blog">BLOG</Link></span>
           <span className='link-tag'><Link className='decoration' to="/about">ABOUT US</Link></span>
           <button className='danate-us'><Link className='decoration' to="/donateus">DONATE US</Link></button>
