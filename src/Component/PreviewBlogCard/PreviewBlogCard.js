@@ -11,13 +11,16 @@ function PreviewBlogCard({id, title, date,image,description}){
        
         <img src={image} className="donor-image"/>
     <h1 className='card-title'>{title}</h1>
-    <p>{description}</p>
-    <h2 className='card-text'> {date}</h2>
+    <p className="preview-description">{description}</p>
+    <div className="date-read-container">
+    <div>
+    <p className='card-text'> {date}</p>
+    </div>
     <div className="blog-link">
     <Link to={`/blog/read/${id}`}className="link">Read More</Link>
     </div>
     </div>
- 
+    </div>
     )
 }
 

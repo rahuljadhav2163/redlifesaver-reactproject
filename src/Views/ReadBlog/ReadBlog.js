@@ -22,21 +22,24 @@ useEffect(()=>{
         <>
         <Navbar/>
         <div className="blood-blog-container">
-            
-          <img src={post.image} className="blood-blog-image" />
+<div className="img-desc-container">
+            <div className="image-container">
+            <img src={post.image} className="blood-blog-image" />
+          </div>
+
           <div className="blood-blog-des-container">
             <h1 className="blood-blog-titles" >{post.title}</h1>
             <p className="blood-blog-description">{post.description}</p>
+            </div>
+            </div>
+            </div>
+            <div className="title-desc-container">
             <h1 className="blood-blog-title">{post.title1}</h1>
             <p className="blood-blog-description">{post.description1}</p>
             <h1 className="blood-blog-title">{post.title2}</h1>
             <p className="blood-blog-description">{post.description2}</p>
-            <h1 className="blood-blog-title">{post.title3}</h1>
-            <p className="blood-blog-description">{post.description3}</p>
-           
+            
             </div>
-          
-        </div>
         <Footer/>
         </>
     )
