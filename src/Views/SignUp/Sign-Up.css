@@ -1,5 +1,5 @@
 .form-container{
-    box-shadow: 1px 3px 1px 3px rgb(251, 46, 5);
+    box-shadow: 1px 3px 7px 1px rgb(251, 46, 5);
     display: flex;
     flex-wrap: wrap;
     height:450px;
@@ -18,33 +18,28 @@
     padding-left: 18px;
     padding-right: 18px;
     color: white;
-    display: block;
-    margin: 0 auto;
+    
     cursor: pointer;
     margin-top: 30px;
+    margin-left: 120px;
 }
 .img-signup{
     height: 400px;
 }
 .input-box{
-    margin: 15px;
-    height: 30px;
+   
+    padding: 12px 15px;
+    margin-left: 40px;
+    border-radius: 10px;
+    width: 250px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    margin-bottom: 10px;
     
 }
-.text-name{
-    margin-right: 28px;
-}
-.text-pass{
-    margin-right: 5px;
-}
-.text-mail{
-    margin-right: 28px;
-}
-.text-mobile{
-    margin-right: 22px;
-}
+
 .title-signup{
  
-    margin-left:80px;
+    margin-left:120px;
     
 }

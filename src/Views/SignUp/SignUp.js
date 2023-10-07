@@ -43,7 +43,7 @@ export default function SignUp() {
 
                         
                         <h1 className="title-signup">Sign Up</h1>
-                    <span className="text-name">Name: </span> <input type="text"
+                <input type="text"
                             placeholder="Name"
                             onChange={(e) => {
                                 setName(e.target.value);
@@ -51,7 +51,7 @@ export default function SignUp() {
                             value={name} 
                             className="input-box"/><br />
 
-                       <span className="text-mobile"> Mobile: </span> <input type="text"
+                      <input type="text"
                             placeholder="Mobile number"
                             onChange={(e) => {
                                 setMobile(e.target.value);
@@ -59,7 +59,7 @@ export default function SignUp() {
                             value={mobile} 
                             className="input-box"/><br />
 
-                       <span className="text-mail">Email: </span> <input type="Email"
+                      <input type="Email"
                             placeholder="email"
                             onChange={(e) => {
                                 setEmail(e.target.value);
@@ -67,14 +67,14 @@ export default function SignUp() {
                             value={email} 
                             className="input-box"/><br />
 
-                        <span className="text-pass">Password: </span> <input type="password"
+                        <input type="password"
                             placeholder="Password"
                             onChange={(e) => {
                                 setPassword(e.target.value);
                             }}
                             value={password}
                             className="input-box"
-                        />
+                        /><br/>
                         <button type="button" className="submit-btn" onClick={handleCheck}>Sign Up</button>
                     </div>
                 </div>
