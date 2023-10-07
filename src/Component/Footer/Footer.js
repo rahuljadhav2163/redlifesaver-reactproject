@@ -1,12 +1,15 @@
 import React from 'react'
 import "./Footer.css"
 import { Link } from "react-router-dom";
+import logo from "./logo-removebg-preview.png"
 function Footer() {
   return (
     <footer className='footer-container'>
       <div className='container'>
         <div>
-          <h2>About Us</h2>
+         <img src={logo } className='logo-png'/><span className='red-life-saver'>Red Life Saver</span>
+          <p className='About-content'>
+Welcome to RED LIFE SAVER, your trusted platform to facilitate easy access to blood when you need it the most.Our mission is to ensure a seamless experience in finding and obtaining blood, connecting donors with those in </p>
         </div>
         <div>
           <h2>Quick Links</h2>
@@ -16,7 +19,7 @@ function Footer() {
           <p><Link to="/Blog" className='text-decoration'>Blog</Link></p>
         </div>
         <div>
-          <h2>contact Info</h2>
+          <h2>Contact Info</h2>
           <p><Link to="https://maps.app.goo.gl/HJZoASPpyNCQho6U8" className='text-decoration'><i class="bi bi-geo-alt"></i> 404 , Laxmi Height Above <br /> Lotus-Multi-speshality-Hospital <br />Manjari BK,pune -412307</Link></p>
           <p><Link to="https://mail.google.com/mail/u/0/#inbox" className='text-decoration'> <i class="bi bi-chat-left-text"></i> ninavenikita492@gmail.com</Link></p>
           <div className='icons-contact'>

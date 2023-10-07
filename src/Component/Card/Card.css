@@ -182,9 +182,12 @@
     cursor: pointer;
 }
 .Team-Card-container{
-    height: 400px;
+    height: 480px;
     width: 300px;
-    border: 1px solid;
+    box-shadow: 0 0 20px -10px black;
+    margin: 10px;
+   
+   
 }
 .team-member-image{
     height: 300px;
@@ -198,3 +201,18 @@
 .team-members-name{
     text-align: center;
 }
+.profile-div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -20px;
+    font-size: 20px;
+    
+}
+.profile-link{
+    color: black;
+}
+.education-para{
+   padding-left: 10px;
+   padding-right: 10px;
+}
+

@@ -51,11 +51,22 @@ function About() {
       </div>
       <h1 className='our-team'>Our Team</h1>
       <div className='team-card'>
-      <TeamCard name="Rahul Jadhav"  instagram="https://www.instagram.com/nikiininave/" img={member1}/>
-      <TeamCard name="Nikita Kadiwike"  instagram="https://www.instagram.com/nikiininave/" img={member2}/>
-      <TeamCard name="Shweta Pund"  email="" img={member3}/>
-      <TeamCard name="Mansi Dethe"  email=""  img={member4}/>
+       
+       
+        <TeamCard name="Rahul Jadhav" linkdin="https://www.linkedin.com/in/rahul2163" github="https://github.com/rahuljadhav2163" img={member1} education=" Education - B.Tech He has completed his B.Tech from COEP. He is passionate about coding, cricket and like to read."/>
+       
+        <TeamCard name="Nikita Kadiwike" linkdin="https://www.linkedin.com/in/nikitakadiwike/ " github="https://github.com/nikii2003" img={member2} education="Education - B.Tech
+        She has purshuing  B.Tech from TGPCET. She is passionate about coding and games."/>
+
+
+        <TeamCard name="Shweta Pund" linkdin="https://www.linkedin.com/in/shwetapund/ " github="https://github.com/shwetapund" img={member3} education="Education - BCA
+        She has completed her BCA from RSMDP. She is passionate about coding and singing."/>
+
+        <TeamCard name="Mansi Dethe" linkdin="https://www.linkedin.com/in/mansi-dethe-349909229/" github="https://github.com/mansidethe" img={member4} education="Education - BCA
+        She has completed her BCA from RSMDP. She is passionate about coding and reading."/>
+        
       </div>
+   
       <Footer />
     </div>
   )
