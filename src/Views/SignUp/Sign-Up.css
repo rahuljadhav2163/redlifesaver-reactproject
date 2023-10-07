@@ -43,6 +43,10 @@
     margin-left:120px;
     
 }
+.signin-link{
+    text-align: center;
+    margin-left: 50px;
+}
 @media screen and (max-width:400px){
     .form-container{
       margin-right: 120px;
