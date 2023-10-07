@@ -1,5 +1,5 @@
 .whoarea{
-    width: 1448px;
+    width: 100%;
    
 }
 .hrone{
@@ -34,6 +34,7 @@
 }
 .About-container{
     display: flex;
+    text-align: justify;
 }
 .initiative-purpose-div{
     margin: 20px;

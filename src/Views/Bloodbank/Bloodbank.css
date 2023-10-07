@@ -10,7 +10,15 @@
     margin-left: 10px;
 }
 
-.main-input-div {}
+.search-btnn{
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 13px 30px;
+    margin-top: 3px;
+    border-radius: 3px;
+}
 
 .list-item-find {
     padding: 14px;
@@ -19,8 +27,7 @@
     border-radius: 5px;
     font-size: 17px;
     margin-top: 30px;
-    border: 3px solid orangered;
-    color: orangered;
+    border: 2px solid black;
 
 }
 
