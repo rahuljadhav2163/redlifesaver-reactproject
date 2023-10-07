@@ -1,0 +1,60 @@
+.whoarea{
+    width: 1448px;
+   
+}
+.hrone{
+    width: 33%;
+    margin-right: 30px;
+    position: relative;
+   top: 80px;
+}
+.hrtwo{
+    width: 33%;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.about-title{
+    /* margin-left: 600px; */
+    text-align: center;
+   position: relative;
+   top: -45px;
+   font-size: 33px;
+   color: orangered;
+}
+.facility-div{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Gearth-img{
+    width: 600px;
+    height: 450px;
+    margin-top: 40px;
+
+}
+.About-container{
+    display: flex;
+}
+.initiative-purpose-div{
+    margin: 20px;
+    padding-left: 30px;
+}
+.para{
+    font-size: 20px;
+}
+.help-card{
+    display: flex;
+    justify-content: space-around;
+}
+.help-heading{
+    margin-left: 50px;
+}
+.team-card{
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.our-team{
+    text-align: center;
+}
