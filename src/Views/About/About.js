@@ -44,10 +44,10 @@ function About() {
       <hr className='hrtwo' />
       <h1 className='about-title'>Facilities We Provide</h1>
       <div className='facility-div'>
-        <FacilityCard title="Find Blood" discription="Find blood banks and blood availability across the nation." faciBtn="Find Now" img={bdrop} />
-        <FacilityCard title="Locate Donors" discription="Locate donors nearby to contact in need them most." faciBtn="Locate Now" img={user} />
+        <FacilityCard title="Find Blood" discription="Find blood banks and blood availability across the nation." faciBtn="Find Now" img={bdrop} link="/bloodbank"/>
+        <FacilityCard title="Locate Donors" discription="Locate donors nearby to contact in need them most." faciBtn="Locate Now" img={user} link="/"/>
         <FacilityCard title="Organize Blood Drive" discription="Get engaged by organizing a blood drive or blood camp with us." faciBtn="Request Now" img={addition}
-        />
+         link="/event"/>
       </div>
       <h1 className='our-team'>Our Team</h1>
       <div className='team-card'>

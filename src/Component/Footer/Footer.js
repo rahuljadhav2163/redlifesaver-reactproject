@@ -23,9 +23,9 @@ Welcome to RED LIFE SAVER, your trusted platform to facilitate easy access to bl
           <p><Link to="https://maps.app.goo.gl/HJZoASPpyNCQho6U8" className='text-decoration'><i class="bi bi-geo-alt"></i> 404 , Laxmi Height Above <br /> Lotus-Multi-speshality-Hospital <br />Manjari BK,pune -412307</Link></p>
           <p><Link to="https://mail.google.com/mail/u/0/#inbox" className='text-decoration'> <i class="bi bi-chat-left-text"></i> ninavenikita492@gmail.com</Link></p>
           <div className='icons-contact'>
-            <p><i class="bi bi-instagram"></i></p>
-            <p><i class="bi bi-github"></i></p>
-            <p><i class="bi bi-facebook"></i></p>
+            <p><a href='https://www.instagram.com/nikiininave/' className='icon-social'><i class="bi bi-instagram"></i></a></p>
+        
+            <p><a href='https://www.facebook.com/nikii.ninave/' className='icon-social'><i class="bi bi-facebook"></i></a></p>
           </div>
 
         </div>
