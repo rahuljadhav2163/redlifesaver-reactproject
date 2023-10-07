@@ -1,7 +1,7 @@
 
 .eventCard{
     border-radius: 10px;
-    height: 500px;
+    height: 520px;
     width: 350px;
     box-shadow: 0 0 5px 1px lightgray;
     font-size: 19px;
@@ -12,7 +12,7 @@
 }
 .title{
     text-align: center;
-    color:#fc6a09
+    color:rgb(251, 46, 5);
 }
 .imgEvent{
     display: block;
@@ -37,5 +37,5 @@
     margin-top: 160px;
 }
 .text{
-    height: 50px;
+    height: 70px;
 }

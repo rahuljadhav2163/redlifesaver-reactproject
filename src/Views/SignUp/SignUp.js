@@ -44,7 +44,7 @@ export default function SignUp() {
                         
                         <h1 className="title-signup">Sign Up</h1>
                     <span className="text-name">Name: </span> <input type="text"
-                            placeholder="name"
+                            placeholder="Name"
                             onChange={(e) => {
                                 setName(e.target.value);
                             }}
@@ -59,7 +59,7 @@ export default function SignUp() {
                             value={mobile} 
                             className="input-box"/><br />
 
-                       <span className="text-mail">Email: </span> <input type="mail"
+                       <span className="text-mail">Email: </span> <input type="Email"
                             placeholder="email"
                             onChange={(e) => {
                                 setEmail(e.target.value);
@@ -68,7 +68,7 @@ export default function SignUp() {
                             className="input-box"/><br />
 
                         <span className="text-pass">Password: </span> <input type="password"
-                            placeholder="password"
+                            placeholder="Password"
                             onChange={(e) => {
                                 setPassword(e.target.value);
                             }}

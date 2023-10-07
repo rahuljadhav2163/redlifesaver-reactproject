@@ -52,8 +52,8 @@ function Events() {
           title={"Blood Donation Camp"}
           ImgEvent={SevaImg}
           date={'25-10-2023'}
-          description={'Pimpri Chinchwad Municipal CorporationS YCM HBC'}
-          Address={'Link Road Thergaon, Pune'}
+          description={'Shri Bhausaheb Hire Govt Medical College HBC'}
+          Address={'NEAR HEADPOST OFFICE,Dhule'}
           contact={8788598953}
           time={'09:00-15:00'}
         />
@@ -61,8 +61,8 @@ function Events() {
           title={"Seva Pakhawada"}
           ImgEvent={ImgBlood}
           date={'20-10-2023'}
-          description={'Ashtavinayak Hospital Blood Bank text'}
-          Address={'Aalephata, Junner, Pune'}
+          description={'Yuvashakti Seva Sanstha Tardev'}
+          Address={'TARDEO, MUMBAI CENTRAL, MUMBAI,Mumbai, Mumbai'}
           contact={8788598953}
           time={'10:00-13:00'}
         />
