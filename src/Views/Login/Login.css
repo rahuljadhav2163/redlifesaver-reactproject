@@ -45,7 +45,7 @@ body{
     margin-right: 240px;
     background-color: white;
    position: relative;
-   top: -110px;
+   top: -230px;
 }
 #email{
     margin-left: 60px;
@@ -86,7 +86,7 @@ body{
     font-size: 30px;
     position: relative;
     top: 105px;
-   
+    cursor: pointer;
    box-shadow: 0 1px 10px 1px red;
    border: 1px solid red;
    border-radius:0 0 20px 20px;
@@ -99,4 +99,17 @@ body{
     top: 110px;
   
 }
-
+.blood-slogan-Hindi{
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 600px;
+   position: relative;
+   top: 100px;
+   font-family: Arial, Helvetica, sans-serif; 
+   color: black;
+   text-align: center;
+}
+.signup-link{
+    text-align: center;
+    margin-left: 50px;
+}

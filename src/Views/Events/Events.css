@@ -10,14 +10,12 @@
 }
 .image-back{
 
-background-image: url("https://previews.123rf.com/images/giantsweet/giantsweet2003/giantsweet200300004/141967655-blood-donation-design-creative-donor-poster-blood-donor-banner-red-drop-donation-volunteer-blood.jpg");
+background-image: url("https://img.lovepik.com//back_pic/05/64/03/535b618c44b9dde.jpg_wh860.jpg");
 background-repeat: no-repeat;
 background-size: cover;
-height: 500px;
+height: 530px;
 
 background-position: center;
-
-
 }
 .text-quote{
     text-align: center; 
@@ -136,3 +134,22 @@ background-position: center;
 .title-color{
     color: rgb(251, 46, 5);
 }
+@media screen and (max-width:500px){
+    .image-back{
+        width:550px;
+        height: 400px;
+    }
+    .campdetail{
+        width: 350px;
+        margin-left: 20px;
+    }
+}
+ @media screen and (min-width:500px) and (max-width:800px){
+    .image-back{
+        width:550px;
+        height: 400px;
+    }
+    .campdetail{
+        width: 550px;
+    }
+} 

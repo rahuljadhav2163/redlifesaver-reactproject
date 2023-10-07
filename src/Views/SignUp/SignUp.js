@@ -3,6 +3,7 @@ import './Sign-Up.css';
 import  showToast  from 'crunchy-toast';
 import Navbar from './../../Component/Navbar/Navbar';
 import Footer from "../../Component/Footer/Footer";
+import {Link} from 'react-router-dom';
 
 export default function SignUp() {
     const [name, setName] = useState('');
@@ -75,6 +76,8 @@ export default function SignUp() {
                             className="input-box"
                         /><br/>
                         <button type="button" className="submit-btn" onClick={handleCheck}>Sign Up</button>
+                        <p className="signin-link">already have an account 
+                        <Link to="/login"> Log in</Link></p>
                     </div>
                 </div>
             </form>

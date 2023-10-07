@@ -3,7 +3,8 @@ import './Login.css';
 import image from './blood-img.png'
 import Navbar from './../../Component/Navbar/Navbar'
 import Footer from './../../Component/Footer/Footer'
-import  showToast  from 'crunchy-toast';
+import  showToast  from 'crunchy-toast'; 
+import {Link} from 'react-router-dom';
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -27,6 +28,7 @@ function Login() {
     <Navbar/>
     <div className='login-image'>
       <div>
+        <p className='blood-slogan-Hindi'>रक्तदान है पुण्य का काम आओ सुब मिलकर करे रक्तदान 🩸</p>
         <p className='blood-slogan'>"The gift of blood is a gift <br/>to someone’s life 🩸."</p>
       </div>
       <form>
@@ -64,6 +66,7 @@ function Login() {
           >
             Login
           </button>
+          <p className="signup-link">You have no account <Link to="/signup">Sign in</Link></p>
         </div>
       </form>
 
