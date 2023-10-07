@@ -77,7 +77,7 @@ export function StepCard({steps,follorulls}) {
     </div>
   )
 }
-export function FacilityCard({title,discription,faciBtn,img}){
+export function FacilityCard({title,discription,faciBtn,img,link}){
   return(
     <div className="facility-container">
       <div className="facilityCard">
@@ -86,7 +86,7 @@ export function FacilityCard({title,discription,faciBtn,img}){
      <div>
       <h3 className="facilitycard-title">{title}</h3>
       <p className="facilitycard-description">{discription}</p>
-     <button className="faciBtn">{faciBtn}</button>
+     <button className="faciBtn"><a href={link}>{faciBtn}</a></button>
       </div>
       </div>
       </div>
