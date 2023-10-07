@@ -215,4 +215,18 @@
    padding-left: 10px;
    padding-right: 10px;
 }
+@media screen and (min-width:200px) and (max-width:710px){
+    .StepsCard{
+        width: 300px;
+    }
+}
+@media screen and (min-width:710px) and (max-width:900px){
+    .StepsCard{
+        width: 500px;
+    }
+}
+@media screen and (min-width:900px) and (max-width:1300px){
+
+}
+
 

@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 import showdata from "./../Showhospitalname/Showhospitalname.json"
 import Hospitalcard from '../../Component/Hospitalcard/Hospitalcard';
 import { StepCard } from "./../../Component/Card/Card"
-import  showToast  from 'crunchy-toast';
+import showToast from 'crunchy-toast';
 
 function Bloodbanks() {
   const [selectedState, setSelectedState] = useState('');
@@ -25,11 +25,11 @@ function Bloodbanks() {
   };
 
   const handleSearch = () => {
-   
+
     const userExistsInLocalStorage = localStorage.getItem('currentuser') !== null;
-  
-    if (userExistsInLocalStorage) { 
-      
+
+    if (userExistsInLocalStorage) {
+
       const filteredHospitalData = showdata.filter((hospital) => {
         return hospital.city === selectedDistrict;
       });
@@ -38,7 +38,7 @@ function Bloodbanks() {
       showToast('User not found..?', 'alert', 4000);
     }
   };
-  
+
   const districts = selectedState ? Bloodbank[selectedState] : [];
 
   return (
@@ -71,7 +71,7 @@ function Bloodbanks() {
         <div>
         </div>
         <div className='search-btn'>
-        
+
           <button className='search-btnn' onClick={handleSearch}><i class="bi bi-search-heart"></i> Search</button>
         </div>
         <div>

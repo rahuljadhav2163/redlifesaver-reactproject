@@ -74,3 +74,47 @@
     height: 200px;
 
 }
+@media screen and (min-width:200px) and (max-width:710px){
+    .bb-heading{
+      margin-left: 40px;
+    }
+    .main-input-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .list-item-find{
+        width: 300px;
+        align-items: center;
+    }
+}
+@media screen and (min-width:711px) and (max-width:900px){
+    .bb-heading{
+        margin-left: 200px;
+      }
+      .main-input-div{
+          display: flex;
+          flex-direction: column;
+      }
+      .list-item-find{
+          width: 600px;
+          align-items: center;
+      }
+      .search-btn {
+        display: block;
+        margin: 10px auto;
+    }
+}
+@media screen and (min-width:900px) and (max-width:1300px){
+
+    .bb-heading{
+        margin-left: 400px;
+      }
+    .main-input-div{
+        display: flex;
+       
+    }
+    .list-item-find{
+        width: 300px;
+        
+    }
+}
