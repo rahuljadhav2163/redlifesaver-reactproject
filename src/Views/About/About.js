@@ -9,6 +9,11 @@ import addition from "./add.png"
 import Footer from "./../../Component/Footer/Footer"
 import imgGearth from "./Donate-Gearth.jpg"
 import { TeamCard } from '../../Component/Card/Card';
+import member1 from "./rahul.jpeg"
+import member2 from "./nikita.jpeg"
+import member3 from "./shweta.jpeg"
+import member4 from "./mansi.jpeg"
+
 
 function About() {
   return (
@@ -23,7 +28,7 @@ function About() {
           <h1>Our Purpose</h1>
           <p className='para'>At  <b>Red Blood Saver</b>, we believe that every drop of blood donated is a step towards a healthier and stronger community. We strive to raise awareness about the critical need for blood donations and facilitate the process for individuals to contribute.</p>
           <h1>Our commitment</h1>
-          <p className='para'>At [Your Organization's Name], our primary commitment is to ensure that anyone in need of blood can easily access our services. We have established a streamlined process to facilitate quick and efficient blood donations for patients in need. Our goal is to be a reliable and easily accessible resource for those requiring blood transfusions during medical emergencies, surgeries, or other medical treatments.</p>
+          <p className='para'>At <b>Red Blood Saver</b> , our primary commitment is to ensure that anyone in need of blood can easily access our services. We have established a streamlined process to facilitate quick and efficient blood donations for patients in need. Our goal is to be a reliable and easily accessible resource for those requiring blood transfusions during medical emergencies, surgeries, or other medical treatments.</p>
         </div>
 
         <div>
@@ -46,10 +51,10 @@ function About() {
       </div>
       <h1 className='our-team'>Our Team</h1>
       <div className='team-card'>
-      <TeamCard name="Rahul Jadhav"  instagram="https://www.instagram.com/nikiininave/"/>
-      <TeamCard name="Nikita Kadiwike"  instagram="https://www.instagram.com/nikiininave/"/>
-      <TeamCard name="Shweta Pund"  email=""/>
-      <TeamCard name="Mansi Dethe"  email=""/>
+      <TeamCard name="Rahul Jadhav"  instagram="https://www.instagram.com/nikiininave/" img={member1}/>
+      <TeamCard name="Nikita Kadiwike"  instagram="https://www.instagram.com/nikiininave/" img={member2}/>
+      <TeamCard name="Shweta Pund"  email="" img={member3}/>
+      <TeamCard name="Mansi Dethe"  email=""  img={member4}/>
       </div>
       <Footer />
     </div>
