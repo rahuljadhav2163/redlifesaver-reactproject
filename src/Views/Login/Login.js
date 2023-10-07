@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import './Login.css';
+import image from './blood-img.png'
+import Navbar from './../../Component/Navbar/Navbar'
+import Footer from './../../Component/Footer/Footer'
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -25,13 +28,19 @@ function Login() {
 
   return (
     <>
-      <h1 className="login-form">Login Form</h1>
+    <Navbar/>
+    <div className='login-image'>
+      <div>
+        <p className='blood-slogan'>"The gift of blood is a gift <br/>to someone’s life 🩸."</p>
+      </div>
       <form>
         <div className="login-container">
+        <h1 className="login-form">Login Form</h1>
           <div className="email">
-            <label htmlFor="email">Email</label>
+           
             <input
               type="text"
+              placeholder='Email'
               name="email"
               id="email"
               value={email}
@@ -40,15 +49,18 @@ function Login() {
           </div>
 
           <div className="password">
-            <label htmlFor="password">Password</label>
+           
             <input
               type="password"
+              placeholder='Password'
               name="password"
               id="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
+            <img src={image} className='blood-image'/>
           </div>
+          
           <button
             type="button"
             className="login-btn"
@@ -58,7 +70,10 @@ function Login() {
           </button>
         </div>
       </form>
+      
        <p className="error-message">{errorMessage}</p>
+       </div>
+       <Footer/>
     </>
   );
 }
