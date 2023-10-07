@@ -1,6 +1,7 @@
 import React, { useState , useEffect } from 'react';
 import './Donateus.css';
-
+import Navbar from '../../Component/Navbar/Navbar';
+import Footer from '../../Component/Footer/Footer';
 function Donateus() {
 
     const [name, setName] = useState('');
@@ -32,8 +33,12 @@ function Donateus() {
 
 
     return (
+
+       
         <div>
-            <form className="form-container">
+             <Navbar/>
+             <div className='donat-container'>
+            <form className="form-containers">
                 <h1 className="titile"> DONATE US</h1>
                 <input
                     className="input-field"
@@ -54,7 +59,7 @@ function Donateus() {
                 <br />
 
                 <select
-                    className="input-field"
+                    className="input-field grp"
                     value={bloodGroup}
                     onChange={(e) => setBloodGroup(e.target.value)}>
                     <option>Blood Group :</option>
@@ -87,10 +92,11 @@ function Donateus() {
                 <br />
                 <br />
 
-                <button type="button" className="input-field" onClick={handleSubmit}>
+                <button type="button" className="input-btn" onClick={handleSubmit}>
                     Donate Now
                 </button>
-            </form>
+            </form></div>
+            <Footer/>
         </div>
     );
 }

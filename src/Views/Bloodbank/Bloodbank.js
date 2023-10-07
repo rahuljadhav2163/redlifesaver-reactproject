@@ -20,7 +20,7 @@ function Bloodbanks() {
 
   const handleDistrictChange = (event) => {
     setSelectedDistrict(event.target.value);
-
+    
   };
 
   const filterhospital = showdata.filter((hospital)=>{
