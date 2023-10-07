@@ -29,6 +29,9 @@ body{
    .preview-description{
     font-size: 20px;
     margin-left: 6px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
    }
 .date-read-container{
     display: flex;
