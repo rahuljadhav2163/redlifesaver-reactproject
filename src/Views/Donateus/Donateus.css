@@ -1,12 +1,14 @@
 .form-containers{
-    height: 500px;
-    width: 400px;
-    box-shadow: 0 0 5px 3px #787777;
+    height: 530px;
+    width: 1000px;
+    box-shadow: 0 1px 3px 1px orangered;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 60px;
     border-radius: 10px;
-    background-color: rgb(251, 215, 215);
+    display: flex;
+    justify-content: space-evenly;
+
 }
 .titile{
     text-align: center;
@@ -16,11 +18,11 @@
 .input-field{
     padding: 12px 15px;
     margin-left: 40px;
-    border-radius: 22px;
+    border-radius: 10px;
     width: 295px;
-    border: 2px solid black;
+    border: 1px solid lightgrey;
     font-size: 16px;
-    box-shadow: 0 0 2px 1px black;
+   
 }
 .grp{
     width: 328px;
@@ -33,4 +35,9 @@
     border: none;
     border-radius: 12px;
     margin-left: 120px;
+}
+.img-contactus{
+    height: 400px;
+    width: 400px;
+    margin-top: 60px;
 }
