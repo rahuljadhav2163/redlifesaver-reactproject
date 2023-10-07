@@ -8,13 +8,12 @@ import blooddropimage from './blood-drop.png'
 import { Link } from 'react-router-dom';
 import showdata from "./../Showhospitalname/Showhospitalname.json"
 import Hospitalcard from '../../Component/Hospitalcard/Hospitalcard';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/js/bootstrap.min.js'
 import { StepCard } from "./../../Component/Card/Card"
 
 function Bloodbanks() {
   const [selectedState, setSelectedState] = useState('');
   const [selectedDistrict, setSelectedDistrict] = useState("");
+  const [filteredHospitals, setFilteredHospitals] = useState([]);
 
   const handleStateChange = (event) => {
     setSelectedState(event.target.value);
@@ -22,15 +21,19 @@ function Bloodbanks() {
 
   const handleDistrictChange = (event) => {
     setSelectedDistrict(event.target.value);
-    
+
   };
 
-  const filterhospital = showdata.filter((hospital) => {
-    return hospital.city === `${selectedDistrict}`
-  })
+  const handleSearch = () => {
+    const filteredHospitalData = showdata.filter((hospital) => {
+      return hospital.city === selectedDistrict;
+    });
+  
+    setFilteredHospitals(filteredHospitalData);
 
-
+  };
   const districts = selectedState ? Bloodbank[selectedState] : [];
+
   return (
     <div className='bloodbank'>
       <Navbar />
@@ -61,7 +64,8 @@ function Bloodbanks() {
         <div>
         </div>
         <div className='search-btn'>
-          <SearchBtn search="Search" />
+        
+          <button className='search-btnn' onClick={handleSearch}><i class="bi bi-search-heart"></i> Search</button>
         </div>
         <div>
 
@@ -71,7 +75,7 @@ function Bloodbanks() {
 
       <div className='hospital-div'>
         {
-          filterhospital.map((hospital, index) => {
+          filteredHospitals.map((hospital, index) => {
             const { name, address, city, location, contact, imgURL } = hospital;
             return (
               <div className='hospital-card-flex'>

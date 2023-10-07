@@ -6,7 +6,7 @@
 .background-img {
     background-image: url("./img/blood.jpg");
     background-size: cover;
-    height: 85vh;
+    height:700px;
 }
 
 .container-blood-find {
