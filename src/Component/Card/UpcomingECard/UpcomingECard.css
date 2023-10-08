@@ -39,3 +39,27 @@
 .text{
     height: 70px;
 }
+@media screen and (max-width:600px){
+    .eventCard{
+        margin-top: 20px;
+        width: 300px;
+    }
+    .imgEvent{
+        width: 300px;
+    }
+    .button{
+        margin-top: 165px;
+    }
+}
+@media screen and (min-width:601px) and (max-width:780px){
+    .eventCard{
+        margin-top: 20px;
+        margin: 20px;
+    }
+}
+@media screen and (min-width:781px) and (max-width:1200px){
+    .eventCard{
+        margin-top: 20px;
+        margin: 20px;
+    }
+}

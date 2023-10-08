@@ -72,26 +72,28 @@ function Events() {
       <div className='city-data'>
         <div className='city'>
           <h1 className='city-title'>City</h1>
+          <div className='city-name-container'>
           <h2 className='cityName' onClick={() => handleChangeCity("Pune")}>Pune</h2>
           <h2 className='cityName' onClick={() => handleChangeCity("Nagpur")}>Nagpur</h2>
           <h2 className='cityName' onClick={() => handleChangeCity("Dhule")}>Dhule</h2>
           <h2 className='cityName' onClick={() => handleChangeCity("Mumbai")}>Mumbai</h2>
+          </div>
         </div>
 
         <div className='event'>
           <h1 className='city-name-high'>{selectedCity}</h1>
-          <h2>Events Snapshot</h2>
+          <h2 className='title-pune'>Events Snapshot</h2>
           {getEventData(selectedCity).map((eventData, index) => {
             const { imgEvent, title, description, date} = eventData;
             return (
               <div className='activity' key={index}>
                 <div>
-                  <img src={imgEvent} height={190} width={230} alt={`Event ${index}`} />
+                  <img src={imgEvent} alt={`Event ${index}`} className='recent-event-img'/>
                 </div>
                 <div className='title-description'>
-                  <h3>{title} </h3>
-                  <b>{date}</b>
-                  <p>{description}</p>
+                  <h3 className='title-camp'>{title} </h3>
+                  <b className='date-camp'>{date}</b>
+                  <p className='description-camp'>{description}</p>
                 </div>
               </div>
             );

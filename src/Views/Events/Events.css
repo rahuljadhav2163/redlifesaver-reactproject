@@ -134,22 +134,213 @@ background-position: center;
 .title-color{
     color: rgb(251, 46, 5);
 }
-@media screen and (max-width:500px){
+.recent-event-img{
+    height: 190px;
+    width: 230px;
+ }
+
+@media screen and (min-width:300px) and (max-width:600px){
     .image-back{
-        width:550px;
+        width:580px;
         height: 400px;
+
     }
     .campdetail{
-        width: 350px;
-        margin-left: 20px;
+        width: 300px;    
     }
+    .Event-main-container{
+   
+        flex-wrap:wrap;
+     }
+     .city-data{
+        
+        flex-wrap: wrap;
+       
+     }
+     .activity{
+        flex-wrap: wrap;
+     }
+     .recent-event-img{
+        height: 190px;
+        width: 200px;
+        margin-left: 300px;
+     }
+    .title-description{
+        /* display: flex;
+        flex-direction: column; */
+        width: 100px;
+       
+        margin-left: 80px;
+        margin-top: -20px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        text-align: left;
+    }
+    .title-camp{
+        font-size: 15px;
+       margin-left: 210px;
+       width: 250px;
+       margin-top: 30px;
+    }
+    .description-camp{
+      display: none;
+    }
+    .date-camp{
+        width: 200px;
+        margin-left: 240px;
+        margin-bottom: 20px;
+        margin-top: -10px;
+    }
+  
+     .city-title{
+        text-align: center;
+     }
+     .cityName{
+        position: relative;
+        top: -10px;
+        margin-left: 50px;
+     }
+     .city-name-container{
+        display: flex;
+        flex-wrap: wrap;
+     }
+     
 }
- @media screen and (min-width:500px) and (max-width:800px){
+ @media screen and (min-width:601px) and (max-width:780px){
     .image-back{
-        width:550px;
+        width:700px;
         height: 400px;
+       margin-left: 20px;
     }
     .campdetail{
         width: 550px;
     }
+    .Event-main-container{
+        flex-wrap:wrap;
+     }
+     .activity{
+        flex-wrap: wrap;
+     }
+     .recent-event-img{
+        height: 220px;
+        width: 280px;
+        margin-left: 180px;
+     }
+    .title-description{
+        /* display: flex;
+        flex-direction: column; */
+        width: 100px;
+       
+        margin-left: 80px;
+        margin-top: -20px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        text-align: left;
+    }
+    .title-camp{
+        font-size: 15px;
+       margin-left: 120px;
+       width: 300px;
+       margin-top: 30px;
+    }
+    .description-camp{
+      width:400px;
+      margin-left: 50px;
+    }
+    .date-camp{
+        width: 200px;
+        margin-left: 170px;
+        margin-bottom: 20px;
+        margin-top: -10px;
+    }
+    .title-pune{
+        margin-left: -120px;
+    }
+    .city-name-high{
+         margin-left: -120px;
+    }
+  
+     .city-title{
+        text-align: center;
+        text-align: center;
+         margin-left: 200px;
+         
+     }
+     .cityName{
+        position: relative;
+        top: -10px;
+        margin-left: 220px;
+     }
+     .city-name-container{
+        display: flex;
+        flex-wrap: wrap;
+     }
+
+
+} 
+@media screen and (min-width:781px) and (max-width:1200px){
+    .image-back{
+        width:1050px;
+        height: 400px;
+       
+    }
+    .campdetail{
+        width: 700px;
+    }
+    .Event-main-container{
+        flex-wrap:wrap;
+     }
+     .activity{
+        flex-wrap: wrap;
+     }
+     .recent-event-img{
+        height: 250px;
+        width: 400px;
+        margin-left: 150px;
+     }
+    .title-description{
+        /* display: flex;
+        flex-direction: column; */
+        width: 100px;
+       
+        margin-left: 80px;
+        margin-top: -20px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        text-align: left;
+    }
+    .title-camp{
+        font-size: 15px;
+       margin-left: 130px;
+       width: 300px;
+       margin-top: 30px;
+    }
+    .description-camp{
+      width:450px;
+      margin-left: 50px;
+    }
+    .date-camp{
+        width: 200px;
+        margin-left: 170px;
+        margin-bottom: 20px;
+        margin-top: -10px;
+    }
+    .title-pune{
+        margin-left: -120px;
+    }
+    .city-name-high{
+         margin-left: -120px;
+    }
+  
+     .city-title{
+        text-align: center;
+        margin-left: 200px;
+     }
+     .cityName{
+        position: relative;
+        top: -10px;
+        margin-left: 220px;
+     }
+     .city-name-container{
+        display: flex;
+        flex-wrap: wrap;
+     }
+
 } 
