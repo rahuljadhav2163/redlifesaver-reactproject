@@ -77,7 +77,7 @@ export default function SignUp() {
                         /><br />
                         <button type="button" className="submit-btn" onClick={handleCheck}>Sign Up</button>
                         <p className="signin-link">already have an account
-                            <Link to="/login"> Log in</Link></p>
+                            <Link to="/login" className="link-login"> Log in</Link></p>
                     </div>
                 </div>
             </form>

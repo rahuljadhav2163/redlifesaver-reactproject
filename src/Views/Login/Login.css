@@ -9,7 +9,7 @@ body{
     opacity: 0.9;
     padding: 20px;
     width: 100vw;
-    height: 100vh;
+    height: 1200px;
     background-size: cover;
     color: black;
 }
@@ -39,13 +39,13 @@ body{
 .login-container{
     border-radius: 20px;
     box-shadow: 0 1px 10px 1px rgb(11, 11, 11);
-    height: 500px;
+    height: 530px;
     width: 400px;
     margin-left: auto;
     margin-right: 240px;
     background-color: white;
    position: relative;
-   top: -230px;
+   top: -300px;
 }
 #email{
     margin-left: 60px;
@@ -75,7 +75,7 @@ body{
    color: white;
    border: 1px solid red;
     position: relative;
-    top: 105px;
+    top: 135px;
     border-radius:0 0 20px 20px;
     
    }
@@ -85,9 +85,9 @@ body{
     height: 50px;
     font-size: 30px;
     position: relative;
-    top: 105px;
+    top: 135px;
     cursor: pointer;
-   box-shadow: 0 1px 10px 1px red;
+   box-shadow: 0 1px 5px 1px red;
    border: 1px solid red;
    border-radius:0 0 20px 20px;
 }
@@ -99,4 +99,47 @@ body{
     top: 110px;
   
 }
+.blood-slogan-Hindi{
+    font-size: 45px;
+    font-weight: 700;
+    margin-right: 600px;
+   position: relative;
+   top: 100px;
+   font-family: Arial, Helvetica, sans-serif; 
+   color: black;
+   text-align: center;
+}
+.signup-link{
+     margin-top: 50px;
+    text-align: center;
+    font-size: 20px; 
+}
+.link-signup{
+    text-decoration: none;
+}
 
+@media screen and (max-width:600px){
+    .blood-slogan-Hindi{
+        font-size: 25px;
+        width: 350px;
+        margin-top: -50px;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    .blood-slogan{
+        font-size: 25px;
+        width: 350px;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top: -80px;
+    }
+    .login-container{
+        height: 530px;
+        width: 400px;
+        margin-left:auto;
+        margin-right: auto;
+        position: relative;
+        top: 220px;
+        margin-bottom: 100px;
+    }
+}
