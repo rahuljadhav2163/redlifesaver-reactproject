@@ -50,7 +50,7 @@ function Donateus() {
             <Navbar />
             <div className='donat-container'>
                 <form className="form-containers">
-                    <div>
+                    <div className='img-contactus'>
                         <img src="https://bestwishescollections.com/wp-content/uploads/2021/06/blood-donor-day-1024x576.jpg" className='img-contactus'/>
                     </div>
                     <div>
