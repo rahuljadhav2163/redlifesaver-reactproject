@@ -38,7 +38,7 @@ export default function SignUp() {
                     <div>
                         <img src="https://i.pinimg.com/564x/3c/20/a1/3c20a16bccae26d05a27243f9259b86e.jpg" className="img-signup" />
                     </div>
-                    <div>
+                    <div className="signup-container">
 
 
 
