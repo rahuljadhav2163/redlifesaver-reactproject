@@ -1,10 +1,9 @@
 .form-container{
     box-shadow: 1px 3px 7px 1px rgb(251, 46, 5);
     display: flex;
-  
+    justify-content:space-evenly;
     height:450px;
     width: 1000px;
-    justify-content:space-evenly;
     padding-top: 40px;
     margin-left: 300px;
     margin-top: 100px;
@@ -46,27 +45,20 @@
 .signin-link{
     text-align: center;
     margin-left: 50px;
+    font-size: 20px; 
 }
-@media screen and (max-width:400px){
-    .form-container{
-      margin-right: 120px;
-       width: 290px;
-    }
-    .img-signup{
-        display: none;
-    }
-    .signup-container{
-      position: relative;
-      right: 60px;
-    }
+.link-login{
+    text-decoration: none;
+    font-size: 20px; 
 }
-@media screen and (min-width:401px) and (max-width:600px){
+
+
+@media screen and (min-width:300px) and (max-width:600px){
     .form-container{
-       position: relative;
-       right: 270px;
+        margin-left: 60px;
        display: flex;
        flex-wrap: wrap;
-       width: 500px;
+       width: 400px;
     }
     .img-signup{
         display: none;
@@ -105,4 +97,5 @@
     .signup-container{
         margin-right: 200px;
     }
+
 }
