@@ -23,7 +23,7 @@ export default function SignUp() {
 
         showToast('Sign Up Succesfully', 'success', 3000);
 
-
+        
         setEmail('');
         setMobile('');
         setName('');
