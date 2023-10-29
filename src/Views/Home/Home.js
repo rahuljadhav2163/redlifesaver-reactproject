@@ -55,7 +55,7 @@ function Home() {
 
           </div>
           <div>
-            <p className='home-danateline'>Danate Blood Give The Gift Of Life</p>
+            <p className='home-danateline'>Donate Blood Give The Gift Of Life</p>
             <div className='crl-container'>
               <div className='cirlefirst'>
                 <p className='drop-blood'><i class="bi bi-droplet-fill"></i></p>

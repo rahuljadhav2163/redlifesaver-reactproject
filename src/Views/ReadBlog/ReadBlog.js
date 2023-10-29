@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Blog from "./../../Views/Blog/blog.json"
+import Blog from "./../../Views/Blog/Blog.json"
 import "./ReadBlog.css"
 import Navbar from "./../../Component/Navbar/Navbar";
 import Footer from "./../../Component/Footer/Footer"

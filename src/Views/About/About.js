@@ -53,17 +53,14 @@ function About() {
       <div className='team-card'>
        
        
-        <TeamCard name="Rahul Jadhav" linkdin="https://www.linkedin.com/in/rahul2163" github="https://github.com/rahuljadhav2163" img={member1} education=" Education - B.Tech He has completed his B.Tech from COEP. He is passionate about coding, cricket and like to read."/>
+        <TeamCard name="Rahul Jadhav" linkdin="https://www.linkedin.com/in/rahul2163" github="https://github.com/rahuljadhav2163" img={member1} education=" Education -I am currently pursuing BE 3rd year from Parikrama college of engineering.I am passionate about coding, cricket."/>
        
-        <TeamCard name="Nikita Kadiwike" linkdin="https://www.linkedin.com/in/nikitakadiwike/ " github="https://github.com/nikii2003" img={member2} education="Education - B.Tech
-        She has purshuing  B.Tech from TGPCET. She is passionate about coding and games."/>
+        <TeamCard name="Nikita Kadiwike" linkdin="https://www.linkedin.com/in/nikitakadiwike/ " github="https://github.com/nikii2003" img={member2} education="Education -I am purshuing  B.Tech from TGPCET .I am passionate about coding and games."/>
 
 
-        <TeamCard name="Shweta Pund" linkdin="https://www.linkedin.com/in/shwetapund/ " github="https://github.com/shwetapund" img={member3} education="Education - BCA
-        She has completed her BCA from RSMDP. She is passionate about coding and singing."/>
+        <TeamCard name="Shweta Pund" linkdin="https://www.linkedin.com/in/shwetapund/ " github="https://github.com/shwetapund" img={member3} education="Education -I have completed BCA from RSMDP. I am passionate about coding and singing."/>
 
-        <TeamCard name="Mansi Dethe" linkdin="https://www.linkedin.com/in/mansi-dethe-349909229/" github="https://github.com/mansidethe" img={member4} education="Education - BCA
-        She has completed her BCA from RSMDP. She is passionate about coding and reading."/>
+        <TeamCard name="Mansi Dethe" linkdin="https://www.linkedin.com/in/mansi-dethe-349909229/" github="https://github.com/mansidethe" img={member4} education="Education - I have completed BCA from Art's Science & Commerce College Rahuri. I am passionate about coding and reading."/>
         
       </div>
    
