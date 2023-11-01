@@ -9,7 +9,7 @@ import addition from "./add.png"
 import Footer from "./../../Component/Footer/Footer"
 import imgGearth from "./Donate-Gearth.jpg"
 import { TeamCard } from '../../Component/Card/Card';
-import member1 from "./rahul.jpeg"
+import member1 from "./mypic.JPG"
 import member2 from "./nikita.jpeg"
 import member3 from "./shweta.jpeg"
 import member4 from "./mansi.jpeg"

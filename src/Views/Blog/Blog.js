@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Blog.css"
-import Blog from "./Blog.json"
+import Blog from "./blog.json"
 import PreviewBlogCard from './../../Component/PreviewBlogCard/PreviewBlogCard'
 import Navbar from './../../Component/Navbar/Navbar'
 import Footer from './../../Component/Footer/Footer'
